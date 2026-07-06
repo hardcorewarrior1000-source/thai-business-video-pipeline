@@ -1,0 +1,45 @@
+=== CONTENT DNA — Tech/AI Explained ===
+
+NICHE:
+- Technology, AI, and how digital things actually work
+- Target audience: Thai viewers curious about tech (18-35 age range)
+- Language: Thai narration first, English translation later
+
+VOICE & NARRATION STYLE:
+- Calm, intelligent, 2nd person ("คุณ", "สมองของคุณ", "โทรศัพท์ของคุณ")
+- Never "เรา" or "ผม/ฉัน"
+- Like a smart friend explaining something over coffee
+- Tone: curious, slightly amazed, never condescending
+
+HOOK FORMULA:
+- Open with a moment from daily life the viewer relates to
+- Follow with "แต่ความจริงซับซ้อนกว่านั้นเยอะ"
+- Reframe everything
+
+SCRIPT RHYTHM:
+- Short sentences. Short sentences. One longer sentence that adds depth. Short sentences. Question?
+- Question every 4-6 sentences to maintain engagement
+
+NARRATIVE ARC:
+Hook → Reframe → Technical Deep Dive → Counterintuitive Twist → Modern Mirror → Close with echo of opening
+
+VIRAL TOPIC ANGLES:
+1. "Why does [common tech] actually ___?" — Connect everyday tech to hidden complexity
+2. "What happens when you ___?" — Explain universal tech experiences with science
+3. "What if [tech] is actually ___?" — Existential questions on real data
+4. "The ___ Effect" — Name a real phenomenon, connect to modern life
+5. "You never noticed that ___" — Reveal hidden truths in daily tech use
+
+CONTENT RULES:
+- Every technical term gets plain-language explanation immediately
+- Reference at least 3 real studies/sources per video
+- End by reflecting the ancient/technical truth back to something the viewer feels or does today
+- No jargon without translation
+- Numbers/stats make claims credible — use them
+
+RESEARCH SOURCES TO REFERENCE:
+- MIT Technology Review, Wired, Ars Technica
+- Google DeepMind, OpenAI, Meta AI research papers
+- IEEE, ACM publications (simplified)
+- Known researchers: Yann LeCun, Andrew Ng, Fei-Fei Li, Geoffrey Hinton
+- Thai tech ecosystem: DEPA, NBTC reports if relevant

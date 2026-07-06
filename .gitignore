@@ -1,0 +1,15 @@
+# Environment
+.env
+.env.local
+
+# Temporary files
+tools/temp_*
+*.mp3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp

@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stick Figure Studio — Video Production Tool</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0f0f1a; color: #e0e0e0; }
+  .app { display: flex; height: 100vh; }
+  .sidebar { width: 340px; background: #1a1a2e; padding: 16px; overflow-y: auto; border-right: 1px solid #2a2a4a; }
+  .main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; }
+  h1 { font-size: 16px; color: #ff6b6b; margin-bottom: 12px; letter-spacing: -0.5px; }
+  h2 { font-size: 11px; color: #666; margin: 10px 0 6px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 600; }
+  label { display: block; font-size: 11px; margin: 4px 0 2px; color: #888; }
+  select, input[type="number"], input[type="text"] { width: 100%; padding: 8px 10px; background: #0f0f1a; border: 1px solid #2a2a4a; color: #e0e0e0; border-radius: 6px; font-size: 12px; }
+  .row { display: flex; gap: 8px; }
+  .row > * { flex: 1; }
+  .color-row { display: flex; gap: 4px; margin: 4px 0; flex-wrap: wrap; }
+  .color-swatch { width: 24px; height: 24px; border-radius: 4px; cursor: pointer; border: 2px solid transparent; transition: all 0.15s; }
+  .color-swatch:hover { transform: scale(1.1); }
+  .color-swatch.active { border-color: #ff6b6b; box-shadow: 0 0 8px rgba(255,107,107,0.4); }
+  canvas { border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.6); background: #fff; }
+  .btn { display: block; width: 100%; padding: 10px; margin: 6px 0; border: none; border-radius: 8px; cursor: pointer; font-size: 12px; font-weight: 600; transition: all 0.15s; }
+  .btn-primary { background: #ff6b6b; color: #fff; }
+  .btn-primary:hover { background: #ff5252; transform: translateY(-1px); }
+  .btn-secondary { background: #2a2a4a; color: #e0e0e0; }
+  .btn-secondary:hover { background: #3a3a5a; }
+  .btn-success { background: #4ecdc4; color: #000; }
+  .btn-success:hover { background: #3dbdb4; }
+  .section { margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #1a1a2e; }
+  .slider-row { display: flex; align-items: center; gap: 8px; }
+  .slider-row input[type="range"] { flex: 1; }
+  .slider-val { font-size: 11px; color: #666; min-width: 30px; text-align: right; }
+  .pose-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
+  .pose-btn { padding: 8px 4px; background: #0f0f1a; border: 1px solid #2a2a4a; color: #e0e0e0; border-radius: 6px; cursor: pointer; font-size: 10px; text-align: center; transition: all 0.15s; }
+  .pose-btn:hover { background: #2a2a4a; }
+  .pose-btn.active { background: #ff6b6b; border-color: #ff6b6b; color: #fff; }
+  .preset-row { display: flex; gap: 4px; flex-wrap: wrap; margin: 4px 0; }
+  .preset-chip { padding: 4px 10px; background: #2a2a4a; border-radius: 12px; font-size: 10px; cursor: pointer; transition: all 0.15s; }
+  .preset-chip:hover { background: #ff6b6b; color: #fff; }
+  .char-section { background: #12121f; border-radius: 8px; padding: 10px; margin: 8px 0; }
+  .char-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .char-label { font-size: 12px; font-weight: 600; }
+  .char-toggle { font-size: 11px; color: #888; cursor: pointer; }
+  .char-toggle:hover { color: #ff6b6b; }
+  #filename { font-family: 'SF Mono', 'Consolas', monospace; font-size: 11px; }
+  .batch-area { width: 100%; min-height: 80px; background: #0f0f1a; border: 1px solid #2a2a4a; color: #e0e0e0; border-radius: 6px; font-family: monospace; font-size: 10px; resize: vertical; padding: 8px; }
+  .style-tag { display: inline-block; padding: 2px 6px; background: #2a2a4a; border-radius: 4px; font-size: 9px; margin: 2px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="sidebar">
+    <h1>Stick Figure Studio</h1>
+
+    <div class="section">
+      <h2>Filename</h2>
+      <input type="text" id="filename" value="00_00_00.png" placeholder="00_00_00.png">
+    </div>
+
+    <div class="section">
+      <h2>Scene Presets</h2>
+      <div class="preset-row">
+        <span class="preset-chip" onclick="loadPreset('conversation')">💬 Conversation</span>
+        <span class="preset-chip" onclick="loadPreset('presentation')">🎤 Presentation</span>
+        <span class="preset-chip" onclick="loadPreset('thinking')">🤔 Thinking</span>
+        <span class="preset-chip" onclick="loadPreset('shocked')">😲 Shocked</span>
+        <span class="preset-chip" onclick="loadPreset('working')">💻 Working</span>
+        <span class="preset-chip" onclick="loadPreset('alone')">👤 Alone</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Background</h2>
+      <div class="preset-row">
+        <span class="preset-chip" onclick="setBg('#FFFFFF','#FFFFFF')">White</span>
+        <span class="preset-chip" onclick="setBg('#F0F4F8','#E8EEF4')">Soft Blue</span>
+        <span class="preset-chip" onclick="setBg('#FFF8E1','#FFE082')">Warm</span>
+        <span class="preset-chip" onclick="setBg('#E8F5E9','#A5D6A7')">Nature</span>
+        <span class="preset-chip" onclick="setBg('#1a1a2e','#2a2a4a')">Dark</span>
+        <span class="preset-chip" onclick="setBg('#FCE4EC','#F8BBD0')">Pink</span>
+      </div>
+      <div class="row" style="margin-top:6px">
+        <div>
+          <label>Background</label>
+          <input type="color" id="bgColor" value="#ffffff" onchange="updateCanvas()">
+        </div>
+        <div>
+          <label>Ground</label>
+          <input type="color" id="groundColor" value="#e8e8e8" onchange="updateCanvas()">
+        </div>
+      </div>
+      <div class="slider-row">
+        <label style="min-width:50px">Ground</label>
+        <input type="range" id="groundY" min="500" max="700" value="620" oninput="updateCanvas()">
+      </div>
+    </div>
+
+    <div class="char-section" id="char1Section">
+      <div class="char-header">
+        <span class="char-label">Character 1</span>
+        <span class="char-toggle" onclick="toggleChar(1)">Hide</span>
+      </div>
+      <label>Pose</label>
+      <div class="pose-grid" id="pose1Grid"></div>
+      <div class="row" style="margin-top:6px">
+        <div>
+          <label>Body</label>
+          <div class="color-row" id="charColor1"></div>
+        </div>
+        <div>
+          <label>Accent</label>
+          <div class="color-row" id="accentColor1"></div>
+        </div>
+      </div>
+      <div class="slider-row">
+        <label style="min-width:50px">X</label>
+        <input type="range" id="char1X" min="80" max="1200" value="400" oninput="updateCanvas()">
+      </div>
+      <div class="slider-row">
+        <label style="min-width:50px">Scale</label>
+        <input type="range" id="char1Scale" min="50" max="150" value="100" oninput="updateCanvas()">
+      </div>
+      <div>
+        <label>Expression</label>
+        <select id="expr1" onchange="updateCanvas()">
+          <option value="neutral">Neutral</option>
+          <option value="happy">Happy</option>
+          <option value="smirk">Smirk</option>
+          <option value="surprised">Surprised</option>
+          <option value="worried">Worried</option>
+          <option value="angry">Angry</option>
+          <option value="thinking">Thinking</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="char-section" id="char2Section">
+      <div class="char-header">
+        <span class="char-label">Character 2</span>
+        <span class="char-toggle" onclick="toggleChar(2)">Show</span>
+      </div>
+      <label>Pose</label>
+      <div class="pose-grid" id="pose2Grid"></div>
+      <div class="row" style="margin-top:6px">
+        <div>
+          <label>Body</label>
+          <div class="color-row" id="charColor2"></div>
+        </div>
+        <div>
+          <label>Accent</label>
+          <div class="color-row" id="accentColor2"></div>
+        </div>
+      </div>
+      <div class="slider-row">
+        <label style="min-width:50px">X</label>
+        <input type="range" id="char2X" min="80" max="1200" value="880" oninput="updateCanvas()">
+      </div>
+      <div class="slider-row">
+        <label style="min-width:50px">Scale</label>
+        <input type="range" id="char2Scale" min="50" max="150" value="100" oninput="updateCanvas()">
+      </div>
+      <div>
+        <label>Expression</label>
+        <select id="expr2" onchange="updateCanvas()">
+          <option value="neutral">Neutral</option>
+          <option value="happy">Happy</option>
+          <option value="smirk">Smirk</option>
+          <option value="surprised">Surprised</option>
+          <option value="worried">Worried</option>
+          <option value="angry">Angry</option>
+          <option value="thinking">Thinking</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Props</h2>
+      <div class="preset-row" id="propGrid">
+        <span class="preset-chip" onclick="setProp('phone')">📱 Phone</span>
+        <span class="preset-chip" onclick="setProp('laptop')">💻 Laptop</span>
+        <span class="preset-chip" onclick="setProp('screen')">🖥️ Screen</span>
+        <span class="preset-chip" onclick="setProp('brain')">🧠 Brain</span>
+        <span class="preset-chip" onclick="setProp('lightning')">⚡ Energy</span>
+        <span class="preset-chip" onclick="setProp('gear')">⚙️ Gear</span>
+        <span class="preset-chip" onclick="setProp('chart')">📊 Chart</span>
+        <span class="preset-chip" onclick="setProp('rocket')">🚀 Rocket</span>
+        <span class="preset-chip" onclick="setProp('lightbulb')">💡 Idea</span>
+        <span class="preset-chip" onclick="setProp('none')">✕ None</span>
+      </div>
+      <div class="slider-row">
+        <label style="min-width:50px">X</label>
+        <input type="range" id="propX" min="50" max="1230" value="640" oninput="updateCanvas()">
+      </div>
+      <div class="slider-row">
+        <label style="min-width:50px">Y</label>
+        <input type="range" id="propY" min="100" max="600" value="350" oninput="updateCanvas()">
+      </div>
+      <div class="slider-row">
+        <label style="min-width:50px">Size</label>
+        <input type="range" id="propSize" min="30" max="200" value="80" oninput="updateCanvas()">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Text Overlay</h2>
+      <input type="text" id="overlayText" placeholder="ALL CAPS TEXT" oninput="updateCanvas()">
+      <div class="row" style="margin-top:4px">
+        <select id="textColor" onchange="updateCanvas()">
+          <option value="#E53935">Red</option>
+          <option value="#1E1E1E">Black</option>
+          <option value="#FDD835">Yellow</option>
+          <option value="#1565C0">Blue</option>
+        </select>
+        <select id="textPos" onchange="updateCanvas()">
+          <option value="top">Top</option>
+          <option value="bottom">Bottom</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Thought Bubble</h2>
+      <input type="text" id="thoughtText" placeholder="HMMMM" oninput="updateCanvas()">
+      <label><input type="checkbox" id="showThought" onchange="updateCanvas()"> Show</label>
+    </div>
+
+    <div class="section">
+      <h2>Export</h2>
+      <button class="btn btn-primary" onclick="exportPNG()">Download PNG (1280×720)</button>
+      <h2>Batch Export</h2>
+      <textarea class="batch-area" id="batchInput" placeholder="Paste shot list...&#10;Each line: filename | pose | expr | prop"></textarea>
+      <button class="btn btn-success" onclick="batchExport()" style="margin-top:6px">Batch Generate</button>
+    </div>
+  </div>
+
+  <div class="main">
+    <canvas id="canvas" width="1280" height="720"></canvas>
+  </div>
+</div>
+
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+const POSES = ['stand','sit','walk','point','armsUp','crossed','wave','crouch','run','lean','dance','present'];
+const BODY_COLORS = ['#2D3436','#636E72','#D63031','#0984E3','#00B894','#E17055','#6C5CE7','#FDCB6E'];
+const ACCENT_COLORS = ['#D63031','#0984E3','#00B894','#E17055','#6C5CE7','#FDCB6E','#FD79A8','#00CEC9'];
+const PROPS = ['phone','laptop','screen','brain','lightning','gear','chart','rocket','lightbulb'];
+
+let state = {
+  bg: '#FFFFFF', ground: '#E8E8E8', groundY: 620,
+  char1: { show:true, pose:'stand', body:'#2D3436', accent:'#D63031', x:400, scale:100, expr:'neutral' },
+  char2: { show:false, pose:'stand', body:'#636E72', accent:'#0984E3', x:880, scale:100, expr:'neutral' },
+  prop: null, propX:640, propY:350, propSize:80,
+  overlayText:'', textColor:'#E53935', textPos:'top',
+  thoughtText:'', showThought:false
+};
+
+function init() {
+  buildPoseGrid('pose1Grid', 'char1');
+  buildPoseGrid('pose2Grid', 'char2');
+  buildColorRow('charColor1', 'char1', 'body');
+  buildColorRow('charColor2', 'char2', 'body');
+  buildColorRow('accentColor1', 'char1', 'accent');
+  buildColorRow('accentColor2', 'char2', 'accent');
+  updateCanvas();
+}
+
+function buildPoseGrid(id, charKey) {
+  const c = document.getElementById(id);
+  POSES.forEach(p => {
+    const btn = document.createElement('div');
+    btn.className = 'pose-btn' + (p === state[charKey].pose ? ' active' : '');
+    btn.textContent = p;
+    btn.onclick = () => {
+      state[charKey].pose = p;
+      c.querySelectorAll('.pose-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      updateCanvas();
+    };
+    c.appendChild(btn);
+  });
+}
+
+function buildColorRow(id, charKey, prop) {
+  const c = document.getElementById(id);
+  const colors = prop === 'body' ? BODY_COLORS : ACCENT_COLORS;
+  colors.forEach(color => {
+    const swatch = document.createElement('div');
+    swatch.className = 'color-swatch' + (color === state[charKey][prop] ? ' active' : '');
+    swatch.style.background = color;
+    swatch.onclick = () => {
+      state[charKey][prop] = color;
+      c.querySelectorAll('.color-swatch').forEach(s => s.classList.remove('active'));
+      swatch.classList.add('active');
+      updateCanvas();
+    };
+    c.appendChild(swatch);
+  });
+}
+
+function toggleChar(n) {
+  const key = 'char' + n;
+  state[key].show = !state[key].show;
+  document.querySelector(`#char${n}Section .char-toggle`).textContent = state[key].show ? 'Hide' : 'Show';
+  updateCanvas();
+}
+
+function setBg(bg, ground) {
+  document.getElementById('bgColor').value = bg;
+  document.getElementById('groundColor').value = ground;
+  updateCanvas();
+}
+
+function setProp(name) {
+  state.prop = name === 'none' ? null : name;
+  updateCanvas();
+}
+
+function loadPreset(name) {
+  switch(name) {
+    case 'conversation':
+      state.char1 = { show:true, pose:'stand', body:'#2D3436', accent:'#D63031', x:350, scale:100, expr:'happy' };
+      state.char2 = { show:true, pose:'stand', body:'#636E72', accent:'#0984E3', x:930, scale:100, expr:'neutral' };
+      state.prop = null; break;
+    case 'presentation':
+      state.char1 = { show:true, pose:'present', body:'#2D3436', accent:'#D63031', x:300, scale:100, expr:'happy' };
+      state.char2 = { show:false, pose:'stand', body:'#636E72', accent:'#0984E3', x:880, scale:100, expr:'neutral' };
+      state.prop = 'screen'; break;
+    case 'thinking':
+      state.char1 = { show:true, pose:'stand', body:'#2D3436', accent:'#D63031', x:400, scale:100, expr:'thinking' };
+      state.char2 = { show:false, pose:'stand', body:'#636E72', accent:'#0984E3', x:880, scale:100, expr:'neutral' };
+      state.prop = 'brain'; state.showThought = true; state.thoughtText = 'HMMMM'; break;
+    case 'shocked':
+      state.char1 = { show:true, pose:'armsUp', body:'#2D3436', accent:'#D63031', x:400, scale:100, expr:'surprised' };
+      state.char2 = { show:false, pose:'stand', body:'#636E72', accent:'#0984E3', x:880, scale:100, expr:'neutral' };
+      state.prop = 'lightning'; break;
+    case 'working':
+      state.char1 = { show:true, pose:'sit', body:'#2D3436', accent:'#D63031', x:400, scale:100, expr:'neutral' };
+      state.char2 = { show:false, pose:'stand', body:'#636E72', accent:'#0984E3', x:880, scale:100, expr:'neutral' };
+      state.prop = 'laptop'; break;
+    case 'alone':
+      state.char1 = { show:true, pose:'stand', body:'#2D3436', accent:'#D63031', x:640, scale:100, expr:'neutral' };
+      state.char2 = { show:false, pose:'stand', body:'#636E72', accent:'#0984E3', x:880, scale:100, expr:'neutral' };
+      state.prop = null; break;
+  }
+  syncUI();
+  updateCanvas();
+}
+
+function syncUI() {
+  document.getElementById('char1X').value = state.char1.x;
+  document.getElementById('char1Scale').value = state.char1.scale;
+  document.getElementById('char1Section').style.display = state.char1.show ? 'block' : 'none';
+  document.getElementById('char2Section').style.display = state.char2.show ? 'block' : 'none';
+  document.getElementById('char2X').value = state.char2.x;
+  document.getElementById('char2Scale').value = state.char2.scale;
+  document.getElementById('expr1').value = state.char1.expr;
+  document.getElementById('expr2').value = state.char2.expr;
+  document.getElementById('bgColor').value = state.bg;
+  document.getElementById('groundColor').value = state.ground;
+  document.getElementById('overlayText').value = state.overlayText;
+  document.getElementById('thoughtText').value = state.thoughtText;
+  document.getElementById('showThought').checked = state.showThought;
+}
+
+function updateCanvas() {
+  state.char1.x = +document.getElementById('char1X').value;
+  state.char1.scale = +document.getElementById('char1Scale').value;
+  state.char1.expr = document.getElementById('expr1').value;
+  state.char2.x = +document.getElementById('char2X').value;
+  state.char2.scale = +document.getElementById('char2Scale').value;
+  state.char2.expr = document.getElementById('expr2').value;
+  state.bg = document.getElementById('bgColor').value;
+  state.ground = document.getElementById('groundColor').value;
+  state.groundY = +document.getElementById('groundY').value;
+  state.propX = +document.getElementById('propX').value;
+  state.propY = +document.getElementById('propY').value;
+  state.propSize = +document.getElementById('propSize').value;
+  state.overlayText = document.getElementById('overlayText').value;
+  state.textColor = document.getElementById('textColor').value;
+  state.textPos = document.getElementById('textPos').value;
+  state.thoughtText = document.getElementById('thoughtText').value;
+  state.showThought = document.getElementById('showThought').checked;
+
+  ctx.clearRect(0,0,1280,720);
+  drawBackground();
+  if (state.prop) drawProp();
+  if (state.char1.show) drawCharacter(state.char1, 1);
+  if (state.char2.show) drawCharacter(state.char2, 2);
+  if (state.showThought && state.thoughtText) drawThoughtBubble();
+  if (state.overlayText) drawOverlayText();
+}
+
+function drawBackground() {
+  ctx.fillStyle = state.bg;
+  ctx.fillRect(0,0,1280,720);
+  ctx.fillStyle = state.ground;
+  ctx.fillRect(0, state.groundY, 1280, 720 - state.groundY);
+  ctx.strokeStyle = '#00000020';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(0, state.groundY);
+  ctx.lineTo(1280, state.groundY);
+  ctx.stroke();
+}
+
+function drawCharacter(char, id) {
+  const x = char.x;
+  const scale = char.scale / 100;
+  const groundY = state.groundY;
+  const baseY = groundY - 10;
+  
+  ctx.save();
+  ctx.translate(x, baseY);
+  ctx.scale(scale, scale);
+  
+  const color = char.body;
+  const accent = char.accent;
+  
+  const poses = getPoseData(char.pose, id);
+  
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+  
+  // Shadow
+  ctx.strokeStyle = 'rgba(0,0,0,0.08)';
+  ctx.lineWidth = 12;
+  drawLimb(poses.neck, poses.hip, true);
+  
+  // Body
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 6;
+  drawLimb(poses.neck, poses.hip, true);
+  
+  // Arms
+  ctx.lineWidth = 5;
+  drawLimb(poses.neck, poses.elbowL, true);
+  drawLimb(poses.elbowL, poses.handL, true);
+  drawLimb(poses.neck, poses.elbowR, true);
+  drawLimb(poses.elbowR, poses.handR, true);
+  
+  // Legs
+  ctx.lineWidth = 5;
+  drawLimb(poses.hip, poses.kneeL, true);
+  drawLimb(poses.kneeL, poses.footL, true);
+  drawLimb(poses.hip, poses.kneeR, true);
+  drawLimb(poses.kneeR, poses.footR, true);
+  
+  // Hands
+  ctx.fillStyle = color;
+  drawDot(poses.handL, 6);
+  drawDot(poses.handR, 6);
+  
+  // Feet
+  drawFoot(poses.footL, color);
+  drawFoot(poses.footR, color);
+  
+  // Head
+  drawHead(poses.head, color, accent, char.expr);
+  
+  ctx.restore();
+}
+
+function getPoseData(pose, id) {
+  const headY = -165;
+  const neckY = -130;
+  const hipY = -50;
+  
+  const poses = {
+    stand: {
+      head: {x:0, y:headY},
+      neck: {x:0, y:neckY},
+      hip: {x:0, y:hipY},
+      elbowL: {x:-35, y:neckY+15},
+      handL: {x:-25, y:hipY+10},
+      elbowR: {x:35, y:neckY+15},
+      handR: {x:25, y:hipY+10},
+      kneeL: {x:-18, y:hipY-30},
+      footL: {x:-22, y:0},
+      kneeR: {x:18, y:hipY-30},
+      footR: {x:22, y:0}
+    },
+    sit: {
+      head: {x:0, y:headY+30},
+      neck: {x:0, y:neckY+30},
+      hip: {x:0, y:hipY+30},
+      elbowL: {x:-30, y:neckY+40},
+      handL: {x:-35, y:hipY+40},
+      elbowR: {x:30, y:neckY+40},
+      handR: {x:35, y:hipY+40},
+      kneeL: {x:-25, y:hipY+10},
+      footL: {x:-30, y:0},
+      kneeR: {x:25, y:hipY+10},
+      footR: {x:30, y:0}
+    },
+    walk: {
+      head: {x:5, y:headY},
+      neck: {x:3, y:neckY},
+      hip: {x:0, y:hipY},
+      elbowL: {x:-40, y:neckY+10},
+      handL: {x:-15, y:neckY+35},
+      elbowR: {x:30, y:neckY+20},
+      handR: {x:45, y:neckY+5},
+      kneeL: {x:-20, y:hipY-35},
+      footL: {x:-35, y:0},
+      kneeR: {x:15, y:hipY-25},
+      footR: {x:25, y:0}
+    },
+    point: {
+      head: {x:5, y:headY},
+      neck: {x:3, y:neckY},
+      hip: {x:0, y:hipY},
+      elbowL: {x:-30, y:neckY+15},
+      handL: {x:-20, y:hipY+5},
+      elbowR: {x:40, y:neckY-10},
+      handR: {x:70, y:neckY-25},
+      kneeL: {x:-18, y:hipY-30},
+      footL: {x:-22, y:0},
+      kneeR: {x:18, y:hipY-30},
+      footR: {x:22, y:0}
+    },
+    armsUp: {
+      head: {x:0, y:headY-5},
+      neck: {x:0, y:neckY},
+      hip: {x:0, y:hipY},
+      elbowL: {x:-30, y:neckY-30},
+      handL: {x:-20, y:neckY-65},
+      elbowR: {x:30, y:neckY-30},
+      handR: {x:20, y:neckY-65},
+      kneeL: {x:-18, y:hipY-30},
+      footL: {x:-22, y:0},
+      kneeR: {x:18, y:hipY-30},
+      footR: {x:22, y:0}
+    },
+    crossed: {
+      head: {x:0, y:headY},
+      neck: {x:0, y:neckY},
+      hip: {x:0, y:hipY},
+      elbowL: {x:-15, y:neckY+25},
+      handL: {x:15, y:neckY+30},
+      elbowR: {x:15, y:neckY+25},
+      handR: {x:-15, y:neckY+30},
+      kneeL: {x:-18, y:hipY-30},
+      footL: {x:-22, y:0},
+      kneeR: {x:18, y:hipY-30},
+      footR: {x:22, y:0}
+    },
+    wave: {
+      head: {x:5, y:headY},
+      neck: {x:3, y:neckY},
+      hip: {x:0, y:hipY},
+      elbowL: {x:-30, y:neckY+15},
+      handL: {x:-20, y:hipY+5},
+      elbowR: {x:40, y:neckY-20},
+      handR: {x:35, y:neckY-55},
+      kneeL: {x:-18, y:hipY-30},
+      footL: {x:-22, y:0},
+      kneeR: {x:18, y:hipY-30},
+      footR: {x:22, y:0}
+    },
+    crouch: {
+      head: {x:0, y:headY+50},
+      neck: {x:0, y:neckY+40},
+      hip: {x:0, y:hipY+30},
+      elbowL: {x:-35, y:neckY+50},
+      handL: {x:-25, y:hipY+35},
+      elbowR: {x:35, y:neckY+50},
+      handR: {x:25, y:hipY+35},
+      kneeL: {x:-30, y:hipY+10},
+      footL: {x:-35, y:0},
+      kneeR: {x:30, y:hipY+10},
+      footR: {x:35, y:0}
+    },
+    run: {
+      head: {x:10, y:headY-5},
+      neck: {x:8, y:neckY-3},
+      hip: {x:0, y:hipY},
+      elbowL: {x:-45, y:neckY+15},
+      handL: {x:-25, y:neckY+40},
+      elbowR: {x:35, y:neckY+5},
+      handR: {x:55, y:neckY-10},
+      kneeL: {x:-25, y:hipY-40},
+      footL: {x:-40, y:0},
+      kneeR: {x:20, y:hipY-20},
+      footR: {x:30, y:0}
+    },
+    lean: {
+      head: {x:15, y:headY+5},
+      neck: {x:10, y:neckY+3},
+      hip: {x:0, y:hipY},
+      elbowL: {x:-25, y:neckY+20},
+      handL: {x:-15, y:hipY+10},
+      elbowR: {x:35, y:neckY+10},
+      handR: {x:30, y:hipY+15},
+      kneeL: {x:-18, y:hipY-30},
+      footL: {x:-22, y:0},
+      kneeR: {x:18, y:hipY-30},
+      footR: {x:22, y:0}
+    },
+    dance: {
+      head: {x:10, y:headY-5},
+      neck: {x:5, y:neckY},
+      hip: {x:0, y:hipY},
+      elbowL: {x:-45, y:neckY-15},
+      handL: {x:-55, y:neckY-40},
+      elbowR: {x:40, y:neckY-20},
+      handR: {x:50, y:neckY-45},
+      kneeL: {x:-25, y:hipY-35},
+      footL: {x:-35, y:0},
+      kneeR: {x:15, y:hipY-25},
+      footR: {x:15, y:0}
+    },
+    present: {
+      head: {x:-5, y:headY},
+      neck: {x:-3, y:neckY},
+      hip: {x:0, y:hipY},
+      elbowL: {x:-35, y:neckY+15},
+      handL: {x:-25, y:hipY+10},
+      elbowR: {x:45, y:neckY-5},
+      handR: {x:75, y:neckY-15},
+      kneeL: {x:-18, y:hipY-30},
+      footL: {x:-22, y:0},
+      kneeR: {x:18, y:hipY-30},
+      footR: {x:22, y:0}
+    }
+  };
+  
+  return poses[pose] || poses.stand;
+}
+
+function drawLimb(from, to, smooth) {
+  ctx.beginPath();
+  ctx.moveTo(from.x, from.y);
+  if (smooth) {
+    const midY = (from.y + to.y) / 2;
+    ctx.quadraticCurveTo(from.x, midY, to.x, to.y);
+  } else {
+    ctx.lineTo(to.x, to.y);
+  }
+  ctx.stroke();
+}
+
+function drawDot(pos, size) {
+  ctx.beginPath();
+  ctx.arc(pos.x, pos.y, size, 0, Math.PI*2);
+  ctx.fill();
+}
+
+function drawFoot(pos, color) {
+  ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.ellipse(pos.x + 5, pos.y, 12, 5, 0, 0, Math.PI*2);
+  ctx.fill();
+}
+
+function drawHead(pos, color, accent, expr) {
+  // Head circle
+  ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.arc(pos.x, pos.y, 28, 0, Math.PI*2);
+  ctx.fill();
+  
+  // Face
+  drawFace(pos.x, pos.y, expr, accent);
+}
+
+function drawFace(x, y, expr, accent) {
+  const eyeY = y - 4;
+  const eyeSpacing = 10;
+  
+  ctx.fillStyle = '#FFFFFF';
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 2;
+  
+  switch(expr) {
+    case 'neutral':
+      // Eyes
+      ctx.fillStyle = '#FFF';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      // Pupils
+      ctx.fillStyle = '#000';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 3, 0, Math.PI*2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY, 3, 0, Math.PI*2);
+      ctx.fill();
+      // Mouth
+      ctx.strokeStyle = '#000';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(x - 8, y + 10);
+      ctx.lineTo(x + 8, y + 10);
+      ctx.stroke();
+      break;
+      
+    case 'happy':
+      ctx.fillStyle = '#FFF';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.fillStyle = '#000';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 3, 0, Math.PI*2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY, 3, 0, Math.PI*2);
+      ctx.fill();
+      // Smile
+      ctx.strokeStyle = '#000';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.arc(x, y + 4, 10, 0.2, Math.PI - 0.2);
+      ctx.stroke();
+      break;
+      
+    case 'smirk':
+      ctx.fillStyle = '#FFF';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY - 2, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.fillStyle = '#000';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 3, 0, Math.PI*2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY - 2, 3, 0, Math.PI*2);
+      ctx.fill();
+      // Smirk
+      ctx.strokeStyle = '#000';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(x - 6, y + 10);
+      ctx.quadraticCurveTo(x + 5, y + 14, x + 10, y + 8);
+      ctx.stroke();
+      break;
+      
+    case 'surprised':
+      // Big eyes
+      ctx.fillStyle = '#FFF';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 8, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY, 8, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.fillStyle = '#000';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 4, 0, Math.PI*2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY, 4, 0, Math.PI*2);
+      ctx.fill();
+      // O mouth
+      ctx.strokeStyle = '#000';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.arc(x, y + 12, 6, 0, Math.PI*2);
+      ctx.stroke();
+      break;
+      
+    case 'worried':
+      ctx.fillStyle = '#FFF';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY + 2, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY + 2, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.fillStyle = '#000';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY + 2, 3, 0, Math.PI*2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY + 2, 3, 0, Math.PI*2);
+      ctx.fill();
+      // Worried brows
+      ctx.strokeStyle = '#000';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(x - 16, eyeY - 10);
+      ctx.lineTo(x - 6, eyeY - 8);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(x + 16, eyeY - 10);
+      ctx.lineTo(x + 6, eyeY - 8);
+      ctx.stroke();
+      // Wavy mouth
+      ctx.beginPath();
+      ctx.moveTo(x - 8, y + 12);
+      ctx.quadraticCurveTo(x - 4, y + 10, x, y + 12);
+      ctx.quadraticCurveTo(x + 4, y + 14, x + 8, y + 12);
+      ctx.stroke();
+      break;
+      
+    case 'angry':
+      ctx.fillStyle = '#FFF';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.fillStyle = '#000';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 3, 0, Math.PI*2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY, 3, 0, Math.PI*2);
+      ctx.fill();
+      // Angry brows
+      ctx.strokeStyle = '#000';
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.moveTo(x - 16, eyeY - 6);
+      ctx.lineTo(x - 6, eyeY - 10);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(x + 16, eyeY - 6);
+      ctx.lineTo(x + 6, eyeY - 10);
+      ctx.stroke();
+      // Frown
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.arc(x, y + 18, 8, Math.PI + 0.3, -0.3);
+      ctx.stroke();
+      break;
+      
+    case 'thinking':
+      ctx.fillStyle = '#FFF';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing, eyeY, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing, eyeY - 2, 6, 0, Math.PI*2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.fillStyle = '#000';
+      ctx.beginPath();
+      ctx.arc(x - eyeSpacing + 2, eyeY, 3, 0, Math.PI*2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.arc(x + eyeSpacing + 2, eyeY - 2, 3, 0, Math.PI*2);
+      ctx.fill();
+      // Thinking mouth
+      ctx.strokeStyle = '#000';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.arc(x + 3, y + 10, 4, 0, Math.PI);
+      ctx.stroke();
+      break;
+  }
+}
+
+function drawProp() {
+  const emojis = {
+    phone: '📱', laptop: '💻', screen: '🖥️', brain: '🧠',
+    lightning: '⚡', gear: '⚙️', chart: '📊', rocket: '🚀', lightbulb: '💡'
+  };
+  ctx.font = `${state.propSize}px serif`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText(emojis[state.prop] || '', state.propX, state.propY);
+}
+
+function drawThoughtBubble() {
+  const x = state.char1.x + 50;
+  const y = 200;
+  
+  ctx.fillStyle = '#FFFFFF';
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 2;
+  
+  ctx.beginPath();
+  ctx.ellipse(x, y, 70, 35, 0, 0, Math.PI*2);
+  ctx.fill();
+  ctx.stroke();
+  
+  ctx.beginPath();
+  ctx.arc(x - 25, y + 35, 6, 0, Math.PI*2);
+  ctx.fill();
+  ctx.stroke();
+  
+  ctx.beginPath();
+  ctx.arc(x - 35, y + 50, 4, 0, Math.PI*2);
+  ctx.fill();
+  ctx.stroke();
+  
+  ctx.fillStyle = '#000';
+  ctx.font = 'bold 14px Segoe UI';
+  ctx.textAlign = 'center';
+  ctx.fillText(state.thoughtText.toUpperCase(), x, y + 5);
+}
+
+function drawOverlayText() {
+  ctx.font = 'bold 42px Segoe UI, sans-serif';
+  ctx.textAlign = 'center';
+  const text = state.overlayText.toUpperCase();
+  const y = state.textPos === 'bottom' ? 680 : 45;
+  
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 4;
+  ctx.strokeText(text, 640, y);
+  
+  ctx.fillStyle = state.textColor;
+  ctx.fillText(text, 640, y);
+}
+
+function exportPNG() {
+  const fname = document.getElementById('filename').value || '00_00_00.png';
+  const link = document.createElement('a');
+  link.download = fname;
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+}
+
+function batchExport() {
+  const input = document.getElementById('batchInput').value.trim();
+  if (!input) { alert('Paste shot list first'); return; }
+  const lines = input.split('\n').filter(l => l.trim());
+  let i = 0;
+  function next() {
+    if (i >= lines.length) { alert('Done! ' + lines.length + ' images'); return; }
+    const parts = lines[i].split('|').map(s => s.trim());
+    document.getElementById('filename').value = parts[0] || '00_00_00.png';
+    if (parts[1]) state.char1.pose = parts[1];
+    if (parts[2]) state.char1.expr = parts[2];
+    if (parts[3]) state.prop = parts[3] === 'none' ? null : parts[3];
+    updateCanvas();
+    setTimeout(() => { exportPNG(); i++; setTimeout(next, 300); }, 200);
+  }
+  next();
+}
+
+init();
+</script>
+</body>
+</html>
