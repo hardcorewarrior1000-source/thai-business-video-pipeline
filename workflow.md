@@ -9,9 +9,9 @@ This is your master guide. Follow these steps for every video.
 1. Tell OpenCode: "new video: [your topic]"
 2. Pick from 5 angles I give you
 3. I write the script → you download it
-4. Paste script to ElevenLabs → get MP3
+4. Run: python tools/voice-generator.py output/[topic]/script.txt
 5. Send me timestamps → I make shot list
-6. Generate images → edit in CapCut → upload
+6. Generate images in Google Flow/ImageFX → edit in CapCut → upload
 
 ---
 
@@ -45,15 +45,17 @@ YOU DO:
 
 ---
 
-### PHASE 3: Voice Generation (10-15 min)
+### PHASE 3: Voice Generation (5-15 min)
 
 YOU DO:
-  → Go to elevenlabs.io
-  → Paste the script (or upload script.txt)
-  → Select your Thai voice
-  → Generate audio
-  → Download as MP3/WAV
-  → Save to: output/[topic-slug]/voiceover.mp3
+  → Run the local TTS script:
+    python tools/voice-generator.py output/[topic-slug]/script.txt
+  → Audio saves to: output/[topic-slug]/voiceover.wav
+  → No API key needed — runs locally on CPU
+
+Options:
+  --split          Generate separate WAV per paragraph (useful for editing)
+  --pause 700      Longer silence between segments (default: 500ms)
 
 ---
 
@@ -86,16 +88,16 @@ METHOD A — Stick Figure Generator (free, fast):
   → Download each image
   → Name them exactly as listed: 00_00_05.png etc.
 
-METHOD B — Gemini/Google Flow:
-  → Copy AGENT BRIEF from shot-list.txt
-  → Paste into Gemini
-  → Generate images one by one or in batch
+METHOD B — Google Flow / ImageFX (recommended):
+  → Open labs.google/fx/tools/flow or labs.google/fx/tools/imagefx
+  → Copy prompts from shot-list.txt
+  → Generate images one by one
   → Download and rename to match shot list
 
-METHOD C — Leonardo.ai:
-  → Copy prompts from shot list
-  → Paste into Leonardo
-  → Generate, download, rename
+METHOD C — Gemini API (for automation):
+  → Use Nano Banana models via Gemini API
+  → Model: gemini-3.1-flash-image (~$0.039/image)
+  → Requires Google Cloud API key
 
 SAVE ALL IMAGES TO: output/[topic-slug]/images/
 

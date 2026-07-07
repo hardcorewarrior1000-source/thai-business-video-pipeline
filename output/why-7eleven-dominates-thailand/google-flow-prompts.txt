@@ -1,0 +1,471 @@
+=== GOOGLE FLOW IMAGE PROMPTS -- 7-ELEVEN THAILAND ===
+Copy-paste these prompts directly into Google Flow (labs.google/fx/tools/flow)
+Style: Kurzgesagt-inspired flat vector illustration, deep navy backgrounds, warm golden accents
+Character: "Nong K" -- golden orange rounded rectangle body, black dot eyes, tiny round glasses
+
+FIRST: Generate character sheet with this prompt:
+"Cute flat vector character sheet, front view, three-quarter view, side view, back view. Expression strip: neutral, happy, sad, surprised, thinking, excited. Simple flat vector, no shadows, white background. Character: rounded rectangle body shape, golden orange #FFB347 color, simple black dot eyes, small triangular beak, tiny round glasses, gradient-fill small wings on sides, consistent rounded corners, Kurzgesagt-inspired flat vector style, clean vector illustration"
+
+Use character sheet as Subject Ingredient in Google Flow for all shots featuring Nong K.
+
+MASTER STYLE SUFFIX (add to all prompts):
+", Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio"
+
+==================================================
+SECTION 1: HOOK
+==================================================
+
+SHOT 01 -- 00_00_00.png -- ปีที่แล้ว บริษัทหนึ่งในประเทศไทย ทำรายได...
+Giant golden "1 ล้านล้าน" number glowing on dark navy, Nong K character looking up in awe, Kurzgesagt style, dramatic reveal, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 02 -- 00_00_03.png -- ตัวเลขที่ใหญ่จนเกือบไม่มีความหมาย...
+Abstract large numbers floating and dissolving, golden particles on dark navy, Kurzgesagt style, scale visualization, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 03 -- 00_00_06.png -- แต่บริษัทที่ว่า คือร้านสะดวกซื้อที่คุณเด...
+Nong K walking into a glowing 7-Eleven store, warm orange light spilling out, dark navy street, Kurzgesagt style, medium shot, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 04 -- 00_00_10.png -- ร้านเล็กๆ ที่มีอยู่ทุกมุมถนน ทำเงินได้มา...
+Aerial view of city with 7-Eleven stores as glowing dots on every corner, Nong K tiny in center, Kurzgesagt style, wide shot, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 05 -- 00_00_13.png -- มากกว่าธนาคาร มากกว่าโรงกลั่นน้ำมัน มากก...
+Split comparison: 7-Eleven icon larger than bank, oil refinery, tech company icons, Kurzgesagt style, size hierarchy, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 06 -- 00_00_17.png -- วันนี้เราจะมาวิเคราะห์กันว่า เซเว่นอีเลฟ...
+Nong K with magnifying glass examining 7-Eleven logo, analytical pose, dark navy background, Kurzgesagt style, medium shot, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 07 -- 00_00_20.png -- แล้วคุณจะรู้ว่าเบื้องหลังร้านสะดวกซื้อธร...
+Complex interconnected gears and systems diagram behind 7-Eleven facade, blueprint style, Kurzgesagt style, revealing depth, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 08 -- 00_00_24.png -- ...pause......
+Abstract transition: golden particles forming pattern, dark navy, Kurzgesagt style, 1 sec, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 09 -- 00_00_27.png -- ทั่วประเทศไทย มีเซเว่นอีเลฟเว่น 15,945 ส...
+Thailand map with "15,945" in giant golden text, store dots scattered across map, Kurzgesagt style, wide shot, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 10 -- 00_00_31.png -- มากกว่าญี่ปุ่นด้วยซ้ำ ถ้าเทียบกับจำนวนปร...
+Side-by-side: Thailand flag with 22 dots vs Japan flag with 17.5 dots, per-capita comparison, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+
+==================================================
+SECTION 2: THE NUMBERS
+==================================================
+
+SHOT 11 -- 00_00_34.png -- ไทยมีเซเว่นประมาณ 22 สาขาต่อประชากรหนึ่ง...
+Bar chart: Thailand bar taller than Japan bar, golden yellow bars on dark navy, Kurzgesagt style, clean infographic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 12 -- 00_00_38.png -- ทุกวัน มีคนเข้าเซเว่นมากกว่าสิบเอ็ดล้านค...
+"11 ล้าน" in giant golden text with crowd of tiny flat vector people flowing into 7-Eleven icons, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 13 -- 00_00_41.png -- เกือบหนึ่งในหกของคนไทย เข้าเซเว่นทุกวัน...
+Pie chart showing 1/6 highlighted in golden, remaining 5/6 in dark teal, Kurzgesagt style, simple infographic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 14 -- 00_00_44.png -- ถ้าคุณอยู่กรุงเทพฯ คุณแทบจะเจอเซเว่นทุกห...
+Bangkok street map with 7-Eleven icons on every intersection, glowing density, Kurzgesagt style, aerial view, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 15 -- 00_00_48.png -- บางแยกมีสองสาขา อยู่ตรงข้ามกัน...
+Close-up of intersection with two 7-Eleven stores facing each other, Nong K confused in middle, Kurzgesagt style, humorous, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 16 -- 00_00_51.png -- และทุกสาขา เปิดยี่สิบสี่ชั่วโมง...
+Clock showing 24 hours with 7-Eleven glowing through all hours, night-to-day cycle, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 17 -- 00_00_55.png -- ไม่ว่าจะตีสาม ตีสี่ คุณก็เข้าเซเว่นได้...
+Nong K at 3AM entering brightly lit 7-Eleven, dark street outside, warm light inside, Kurzgesagt style, cozy mood, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 18 -- 00_00_58.png -- ในต่างจังหวัด ถ้าเมืองไหนมีเซเว่น เมืองน...
+Rural Thailand map with single glowing 7-Eleven dot, small town celebration, Kurzgesagt style, wide shot, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 19 -- 00_01_02.png -- คนในพื้นที่มองว่าเซเว่นคือสัญลักษณ์ของคว...
+Nong K as small-town resident looking at 7-Eleven with sparkly eyes, pride expression, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 20 -- 00_01_05.png -- และสาขาแรก แทบจะล้มเหลว...
+Cracked/falling 7-Eleven store icon, red warning tones, downward arrow, Kurzgesagt style, dramatic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 21 -- 00_01_09.png -- Revenue ของ CP All... หนึ่งล้านสองหมื่นส...
+Revenue chart climbing to 1.02 trillion, golden glow at peak, Kurzgesagt style, triumphant, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 22 -- 00_01_12.png -- กำไรสุทธิ เกือบสามหมื่นล้านบาท...
+Profit bar "28.2 พันล้าน" in golden, upward trend, Kurzgesagt style, clean infographic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 23 -- 00_01_16.png -- ตัวเลขเหล่านี้ ใหญ่กว่า PTT ใหญ่กว่าธนาค...
+Size comparison: 7-Eleven icon larger than PTT, SCB, and tech icons, Kurzgesagt style, hierarchy, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 24 -- 00_01_19.png -- ...pause......
+Golden particles reassemble, dark navy, Kurzgesagt style, 1 sec, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 25 -- 00_01_23.png -- ปี 1989 สาขาแรกเปิดบนถนนพัฒน์พงศ์...
+Patpong Road Bangkok 1989, first 7-Eleven store, vintage feel, Kurzgesagt flat vector style, historical, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 26 -- 00_01_26.png -- พื้นที่ที่เต็มไปด้วยนักท่องเที่ยว...
+Patpong area map with tourist icons, neon signs, busy street, Kurzgesagt style, vibrant, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 27 -- 00_01_29.png -- คนไทยไม่เข้าใจว่าร้านสะดวกซื้อคืออะไร...
+Nong K confused, question marks floating, Thai people looking puzzled at 7-Eleven, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 28 -- 00_01_33.png -- ทำไมต้องเข้าไปซื้อของแพงกว่าร้านชำข้างบ้...
+Split: expensive 7-Eleven items vs cheap mom-and-pop shop, price tags, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+
+==================================================
+SECTION 3: HISTORY
+==================================================
+
+SHOT 29 -- 00_01_36.png -- ร้านชำข้างบ้าน คุยกันได้ จดบัญชีได้ ไม่ต...
+Warm scene of traditional Thai shop, grandma selling, neighbor chatting, Kurzgesagt style, nostalgic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 30 -- 00_01_40.png -- สาขาแรกขาดทุน...
+Downward red arrow, empty 7-Eleven store, red loss numbers, Kurzgesagt style, somber, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 31 -- 00_01_43.png -- แต่คนที่นำเซเว่นเข้ามา ไม่ใช่บริษัทค้าปล...
+Mystery reveal: shadowy CP Group logo emerging, question mark, Kurzgesagt style, dramatic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 32 -- 00_01_47.png -- เป็นร้านขายเมล็ดพันธุ์เล็กๆ ที่เริ่มในยุ...
+Small seed shop icon, 1920s vintage style, two brothers silhouette, Kurzgesagt flat vector, sepia tones, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 33 -- 00_01_50.png -- พี่น้องชาวจีนสองคนอพยพจากกวางตุ้ง มาเปิด...
+Two simple flat vector characters (brothers) arriving in Bangkok with seed bags, Kurzgesagt style, journey, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 34 -- 00_01_54.png -- ร้านนั้นคือจุดเริ่มต้นของเครือเจริญโภคภั...
+Small seed shop growing into giant CP Group logo/tree, organic growth metaphor, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 35 -- 00_01_57.png -- สองพี่น้องเริ่มจากศูนย์ ไม่มีเงินทุน ไม่...
+"0" in golden, empty hands, humble beginning, dark navy, Kurzgesagt style, minimalist, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 36 -- 00_02_01.png -- แค่ขายเมล็ดพันธุ์ให้เกษตรกรไทย...
+Brothers selling seeds to Thai farmers, rural scene, warm golden tones, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 37 -- 00_02_04.png -- แต่พวกเขามีวิสัยทัศน์ เห็นว่าเมล็ดพันธุ์...
+Vision bubble showing food chain: seed → feed → farm → factory, connected dots, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 38 -- 00_02_07.png -- จากเมล็ดพันธุ์ สู่อาหารสัตว์ สู่ฟาร์ม สู...
+Horizontal chain: seed icon → feed bag → chicken → factory, golden connecting line, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 39 -- 00_02_11.png -- ซีพีค่อยๆ ขยายจากต้นน้ำไปปลายน้ำ...
+Upstream-to-downstream flow diagram, water metaphor, CP expanding through supply chain, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 40 -- 00_02_14.png -- จนกลายเป็นกลุ่มเกษตรอุตสาหกรรมที่ใหญ่ที่...
+Giant CP Group building towering over Asia map, golden glow, Kurzgesagt style, impressive scale, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 41 -- 00_02_18.png -- ธนินทร์ เจียรวนนท์ ทายาทรุ่นที่สาม คือคน...
+Silhouette of businessman (Dhanin) standing before CP empire, backlit golden, Kurzgesagt style, dramatic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 42 -- 00_02_21.png -- ปี 1987 ธนินทร์ไปเจรจากับเซเว่นที่อเมริก...
+1987 marker, airplane from Thailand to USA, Kurzgesagt flat vector style, journey, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 43 -- 00_02_25.png -- อเมริกามองว่ากำลังซื้อคนไทยต่ำเกินไป...
+American executives dismissing, hand gesture "no", Thai flag small, Kurzgesagt style, rejection, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 44 -- 00_02_28.png -- ไทยยังเป็นประเทศกำลังพัฒนา รายได้เฉลี่ยต...
+Low bar chart showing Thailand income vs USA, gap visualization, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 45 -- 00_02_32.png -- ไม่มีทางที่ร้านสะดวกซื้อจะอยู่รอดได้...
+X mark over 7-Eleven store, red warning, doubt, Kurzgesagt style, dramatic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+
+==================================================
+SECTION 4: CP GROUP ORIGIN
+==================================================
+
+SHOT 46 -- 00_02_35.png -- แต่ธนินทร์ไม่ยอมแพ้ เขาเชิญผู้บริหารอเมร...
+Dhanin character inviting American characters to Thailand, warm gesture, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 47 -- 00_02_39.png -- พาไปดูตลาดสด ดูย่านธุรกิจ ดูวิถีชีวิตคนไ...
+Tour of Bangkok: market, business district, daily life scenes as flat vector vignettes, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 48 -- 00_02_42.png -- ให้เห็นด้วยตาว่ากรุงเทพฯ ไม่ใช่เมืองเล็ก...
+Panoramic Bangkok skyline as flat vector, skyscrapers, busy streets, Kurzgesagt style, impressive, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 49 -- 00_02_46.png -- ให้เห็นว่าคนไทยมีกำลังซื้อ แค่ต้องเข้าถึ...
+Rising bar chart showing Thai consumer potential, golden upward trend, Kurzgesagt style, hopeful, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 50 -- 00_02_49.png -- เซเว่นมอบสิทธิ์แฟรนไชส์ให้ซีพี...
+Handshake between 7-Eleven and CP Group logos, golden glow, deal sealed, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 51 -- 00_02_52.png -- แต่สิทธิ์นั้นมาพร้อมกับความเสี่ยง...
+Franchise contract with warning symbols, red accents, risk visualization, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 52 -- 00_02_56.png -- เพราะสาขาแรก พิสูจน์แล้วว่าโมเดลอเมริกาใ...
+Side-by-side: American 7-Eleven (different) vs Thai 7-Eleven (needs adaptation), Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 53 -- 00_02_59.png -- ...pause......
+Golden particles morph, dark navy, Kurzgesagt style, 1 sec, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 54 -- 00_03_03.png -- สิ่งที่ซีพีทำต่อไป คือสิ่งที่ทำให้เซเว่น...
+Thai 7-Eleven glowing differently from world map versions, unique star, Kurzgesagt style, pride, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 55 -- 00_03_06.png -- พวกเขาไม่ได้ก๊อปปี้โมเดล พวกเขาสร้างโมเด...
+Copy symbol crossed out, new blueprint unfolding, innovation metaphor, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 56 -- 00_03_10.png -- สิ่งแรกที่พวกเขาทำ คือเข้าใจว่าคนไทยกินอ...
+Nong K with thought bubble showing Thai food icons, thinking expression, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 57 -- 00_03_13.png -- คนไทยไม่ได้กินแซนดิชหรือฮอทด็อก...
+Sandwich and hotdog icons crossed out in red, Kurzgesagt style, humorous rejection, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 58 -- 00_03_17.png -- คนไทยกินข้าว...
+Glowing bowl of rice, golden steam, warm tones, Kurzgesagt style, celebratory, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 59 -- 00_03_20.png -- ผัดกะเพรา ข้าวมันไก่ ต้มยำกุ้ง แกงเขียวห...
+Four Thai dishes as flat vector icons in grid, colorful, appetizing, Kurzgesagt style, food icons, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 60 -- 00_03_24.png -- ซีพีสร้างโรงงาน CPRAM ผลิตอาหารให้เซเว่น...
+Factory building labeled CPRAM, production line, conveyor belt, Kurzgesagt style, industrial, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 61 -- 00_03_27.png -- EZYgo ข้าวกล่องพร้อมทาน อุ่นไมโครเวฟแค่ส...
+EZYgo meal box glowing, microwave timer "2:00", warm golden, Kurzgesagt style, appetizing, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 62 -- 00_03_30.png -- ราคาแค่สามสิบถึงห้าสิบบาท...
+Price tag "30-50 บาท" in golden, affordable indicator, green checkmark, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+
+==================================================
+SECTION 5: FOOD STRATEGY
+==================================================
+
+SHOT 63 -- 00_03_34.png -- อาหารสดส่งวันละสามรอบ เช้า กลางวัน เย็น...
+Three delivery trucks at morning/noon/evening markers, circular schedule, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 64 -- 00_03_37.png -- ทุกสาขาในไทย ได้รับอาหารสดวันละสามครั้ง...
+Map with delivery routes to all stores, three waves, Kurzgesagt style, logistics visualization, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 65 -- 00_03_41.png -- ระบบนี้ซีพีลงทุนสร้างมาหลายปี...
+Investment timeline with building blocks, years stacking up, Kurzgesagt style, patience, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 66 -- 00_03_44.png -- แต่มันคือเหตุผลที่คุณเข้าเซเว่นแล้วเจอข้...
+Nong K happy discovering new meal boxes, surprised expression, warm glow, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 67 -- 00_03_48.png -- Counter Service ที่เปิดปี 1994 คืออีกก้า...
+1994 marker, Counter Service launch, bill payment icons, Kurzgesagt style, historical, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 68 -- 00_03_51.png -- จ่ายค่าไฟ ค่าน้ำ ค่าโทรศัพท์ จ่ายบัตรเคร...
+Bill payment icons: electricity, water, phone, credit card, all flowing to 7-Eleven, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 69 -- 00_03_55.png -- ไม่ต้องไปธนาคาร ไม่ต้องต่อคิว...
+Long bank queue vs quick 7-Eleven counter, speed comparison, Kurzgesagt style, relatable, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 70 -- 00_03_58.png -- เมื่อคุณเข้าไปจ่ายบิล คุณก็ซื้อข้าวกล่อง...
+Nong K paying bill then grabbing meal box, dual action, Kurzgesagt style, clever, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 71 -- 00_04_02.png -- คุณเข้าเซเว่นไม่ใช่เพราะอยากซื้อของ แต่เ...
+Multiple reason arrows pointing to 7-Eleven: bill, food, coffee, ATM, Kurzgesagt style, ecosystem, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 72 -- 00_04_05.png -- แล้วคุณก็ซื้อของติดไม้ติดมือทุกครั้ง...
+Nong K leaving with arms full of items, impulse buy, happy expression, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 73 -- 00_04_09.png -- นี่คือระบบที่ทำให้เซเว่นกลายเป็นศูนย์กลา...
+Hub-and-spoke diagram: 7-Eleven at center, daily life activities radiating out, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 74 -- 00_04_12.png -- All Café กาแฟราคาสามสิบบาท แข่งกับร้านกา...
+All Café coffee cup with "30 บาท" price, steam rising, warm golden, Kurzgesagt style, inviting, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 75 -- 00_04_15.png -- ไม่ต้องไปร้านกาแฟ แค่เดินเข้าเซเว่น...
+Nong K holding All Café coffee, walking from 7-Eleven, satisfied expression, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 76 -- 00_04_19.png -- ระบบแฟรนไชส์ทำให้ขยายตัวได้เร็ว ปีละเจ็ด...
+"700 สาขา/ปี" in golden, rapid growth animation, expanding dots, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 77 -- 00_04_22.png -- จากสาขาแรกในปี 1989 สู่ 15,945 สาขาในปี ...
+Growth curve from 1 to 15,945, exponential line, golden glow, Kurzgesagt style, impressive, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 78 -- 00_04_26.png -- เฉลี่ยวันละสองสาขาใหม่ ทุกวัน เป็นเวลาสา...
+Calendar flipping rapidly, new store icons appearing daily, Kurzgesagt style, momentum, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 79 -- 00_04_29.png -- 51% เป็นสาขาที่ซีพีเป็นเจ้าของเอง...
+Pie chart: 51% golden (corporate), Kurzgesagt style, clean infographic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 80 -- 00_04_33.png -- 43% เป็นแฟรนไชส์ Store Business Partner...
+Pie chart: 43% teal (SBP), Kurzgesagt style, clean infographic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+
+==================================================
+SECTION 6: FRANCHISE MODEL
+==================================================
+
+SHOT 81 -- 00_04_36.png -- 6% เป็นสิทธิ์ย่อยในพื้นที่ห่างไกล...
+Pie chart: 6% coral (sub-area), Kurzgesagt style, complete breakdown, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 82 -- 00_04_40.png -- ระบบนี้ทำให้ซีพีควบคุมคุณภาพได้ แต่ก็ขยา...
+Balance scale: quality control vs rapid expansion, both balanced, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 83 -- 00_04_43.png -- SBP คือโมเดลที่ซีพีคิดค้นขึ้นมาเอง...
+Innovation lightbulb with SBP model diagram, unique creation, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 84 -- 00_04_47.png -- ต่างจากแฟรนไชส์ทั่วไปที่ต้องลงทุนเองทั้ง...
+Traditional franchise (investor pays everything) vs SBP (CP owns assets), Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 85 -- 00_04_50.png -- SBP ให้ซีพีเป็นเจ้าของทรัพย์สิน ส่วนผู้จ...
+Ownership diagram: CP owns building, manager operates, split responsibility, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 86 -- 00_04_54.png -- ความเสี่ยงต่ำกว่า ขยายได้เร็วกว่า...
+Risk meter low, speed meter high, dual gauge, Kurzgesagt style, clear visualization, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 87 -- 00_04_57.png -- SBP ยังมี sub-area license สำหรับพื้นที่...
+Remote areas of Thailand with small 7-Eleven icons, reaching everywhere, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 88 -- 00_05_00.png -- ให้ผู้ประกอบการท้องถิ่นเปิดเซเว่นในหมู่บ...
+Local entrepreneur opening 7-Eleven in rural village, community, Kurzgesagt style, inclusive, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 89 -- 00_05_04.png -- ระบบนี้ทำให้เซเว่นเข้าถึงทุกพื้นที่ในประ...
+Thailand fully covered in golden dots, complete coverage, Kurzgesagt style, achievement, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 90 -- 00_05_07.png -- ...pause......
+Golden particles swirl, new chapter, Kurzgesagt style, 1 sec, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 91 -- 00_05_11.png -- ตอนนี้คุณอาจจะคิดว่า เซเว่นชนะเพราะอาหาร...
+Nong K thinking, thought bubble with food + stores, surface-level analysis, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 92 -- 00_05_14.png -- แต่จริงๆ แล้ว ระบบนิเวศต่างหากคืออาวุธลั...
+Iceberg metaphor: food/stores above water, ecosystem below, secret weapon reveal, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 93 -- 00_05_18.png -- เซเว่นในไทยไม่รับคิวอาร์ของธนาคารปกติ...
+QR code with red X, bank logos rejected, surprising fact, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 94 -- 00_05_21.png -- ต้องใช้ TrueMoney Wallet ที่ซีพีเป็นเจ้า...
+TrueMoney wallet icon glowing, CP Group ownership badge, Kurzgesagt style, revealing, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 95 -- 00_05_25.png -- เพราะซีพีต้องการให้ทุกธุรกรรมอยู่ในเครือ...
+Closed loop diagram: all money flowing within CP ecosystem, Kurzgesagt style, strategic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 96 -- 00_05_28.png -- TrueMoney คือระบบชำระเงินดิจิทัลของ Asce...
+TrueMoney logo with "30 ล้านผู้ใช้" text, network visualization, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 97 -- 00_05_32.png -- มีผู้ใช้งานมากกว่าสามสิบล้านคนในประเทศไท...
+"30 ล้าน" in golden with user icons spreading across Thailand map, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+
+==================================================
+SECTION 7: ECOSYSTEM + LESSONS
+==================================================
+
+SHOT 98 -- 00_05_35.png -- เมื่อคุณจ่ายเงินผ่าน TrueMoney ข้อมูลทุก...
+Data flow: payment → CP database, information gathering, Kurzgesagt style, strategic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 99 -- 00_05_38.png -- ซีพีรู้ว่าคุณกินอะไร จ่ายอะไร เข้าเซเว่น...
+Dashboard showing user data: food preferences, spending, visit times, Kurzgesagt style, surveillance, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 100 -- 00_05_42.png -- ข้อมูลนี้มีค่ามหาศาล...
+Data treasure chest glowing golden, valuable information, Kurzgesagt style, insight, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 101 -- 00_05_45.png -- กินข้าวที่เซเว่น จ่ายบิลที่เซเว่น จ่ายเง...
+Three activities circling around 7-Eleven, daily routine loop, Kurzgesagt style, routine, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 102 -- 00_05_49.png -- True Corporation ที่ให้บริการมือถือ ก็อย...
+True Corp logo connecting to CP ecosystem, telecom integration, Kurzgesagt style, network, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 103 -- 00_05_52.png -- ทุกอย่างเชื่อมต่อกัน...
+Complete ecosystem diagram: 7-Eleven + TrueMoney + True Corp + CP Foods, all connected, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 104 -- 00_05_56.png -- ซีพีไม่ได้แค่ขายของให้คุณ ซีพีสร้างชีวิต...
+Nong K surrounded by CP services, daily life bubble, immersed in ecosystem, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 105 -- 00_05_59.png -- คุณอาจจะไม่รู้ตัวด้วยซ้ำ ว่าทุกอย่างที่ค...
+Nong K surprised, invisible walls of ecosystem around them, thought-provoking, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 106 -- 00_06_03.png -- ...pause......
+Ecosystem diagram dissolving, new topic emerging, Kurzgesagt style, 1 sec, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 107 -- 00_06_06.png -- CJ More คือคู่แข่งใหม่ที่น่าจับตา...
+CJ More logo emerging as rival, red competitive glow, Kurzgesagt style, threat introduction, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 108 -- 00_06_10.png -- CJ Express กำลังขยายเร็วมาก ปีละหกร้อยสา...
+"600 สาขา/ปี" in red, rapid expansion arrows, Kurzgesagt style, aggressive growth, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 109 -- 00_06_13.png -- ตั้งเป้าจะมีสามพันหนึ่งร้อยสาขาภายในปี 2...
+CJ More growth curve targeting 3,100 by 2028, red line climbing, Kurzgesagt style, ambition, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 110 -- 00_06_17.png -- CJ More เน้นราคาถูก เน้นคนต่างจังหวัด...
+CJ More budget positioning vs 7-Eleven convenience, different strategies, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 111 -- 00_06_20.png -- เป็นภัยคุกคามต่อเซเว่นในตลาดที่ซีพีเคยผู...
+CJ More shadow looming over 7-Eleven dominance, red warning, Kurzgesagt style, tension, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 112 -- 00_06_23.png -- และในขณะเดียวกัน ร้านโชห่วยสี่แสนร้านทั่...
+Thailand map with 400,000 small shop icons, traditional retail, Kurzgesagt style, scale, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 113 -- 00_06_27.png -- ร้านชำข้างบ้าน คุณยายขายของ ยังเป็นทางเล...
+Grandma at traditional shop, warm community scene, Kurzgesagt style, nostalgic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 114 -- 00_06_30.png -- เซเว่นอาจครองตลาด แต่ไม่ได้แปลว่าจะครองต...
+Crown on 7-Eleven but cracking, competition closing in, Kurzgesagt style, uncertain future, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+
+==================================================
+SECTION 8: CLOSING
+==================================================
+
+SHOT 115 -- 00_06_34.png -- ...pause......
+Final chapter transition, golden particles, Kurzgesagt style, 1 sec, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 116 -- 00_06_37.png -- บทเรียนจากเรื่องนี้...
+Book opening with golden light, lessons emerging, Kurzgesagt style, wisdom, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 117 -- 00_06_41.png -- อย่าดูถูกตลาดที่ดูเล็ก ซีพีเริ่มจากร้านข...
+Tiny seed shop growing into empire, scale transformation, Kurzgesagt style, inspiring, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 118 -- 00_06_44.png -- พี่น้องสองคนจากกวางตุ้ง ไม่มีอะไรเลย แต่...
+Two brothers with vision bubble, humble start, golden opportunity, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 119 -- 00_06_48.png -- แล้วค่อยๆ ขยายไปทีละขั้น...
+Step-by-step growth: seed → feed → farm → factory → retail, staircase, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 120 -- 00_06_51.png -- ระบบนิเวศสำคัญกว่าสินค้า...
+Ecosystem (large circle) encompassing product (small circle), priority visualization, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 121 -- 00_06_55.png -- เซเว่นชนะเพราะสร้างระบบที่ทำให้คุณต้องกล...
+Return loop: customer → 7-Eleven → services → back to 7-Eleven, daily cycle, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 122 -- 00_06_58.png -- ไม่ใช่แค่ขายของดี แต่ทำให้คุณไม่มีทางเลื...
+Single path to 7-Eleven, no exits, ecosystem lock-in concept, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 123 -- 00_07_01.png -- ปรับตัวให้เข้ากับท้องถิ่น...
+Nong K adapting, morphing between Japanese and Thai 7-Eleven styles, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 124 -- 00_07_05.png -- เซเว่นในญี่ปุ่นกับไทย แทบจะเป็นคนละร้าน...
+Japan 7-Eleven (onigiri, bento) vs Thai 7-Eleven (pad kra pao, rice box), Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 125 -- 00_07_08.png -- ญี่ปุ่นเน้นข้าวปั้น ไทยเน้นข้าวกล่องผัดก...
+Specific product comparison: Japanese rice ball vs Thai stir-fry box, Kurzgesagt style, cultural, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 126 -- 00_07_12.png -- คิดระยะยาว...
+Long road stretching to horizon, patience metaphor, golden sunset, Kurzgesagt style, reflective, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 127 -- 00_07_15.png -- ซีพีไม่ได้หวังกำไรจากสาขาแรก...
+First store with red loss numbers, long-term investment, Kurzgesagt style, patience, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 128 -- 00_07_19.png -- พวกเขาลงทุนสิบปี ก่อนที่จะเริ่มมีกำไรจริ...
+10-year investment period marked, growth curve delayed, Kurzgesagt style, strategic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 129 -- 00_07_22.png -- ทุกวันนี้ กำไรต่อปีเกือบสามหมื่นล้านบาท...
+"28.2 พันล้าน" in golden, profit mountain, Kurzgesagt style, payoff, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 130 -- 00_07_26.png -- จากเมล็ดพันธุ์เล็กๆ ในยุค 1920 สู่อาณาจั...
+Full journey: seed (1920) → empire (2025), golden path, Kurzgesagt style, epic scale, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 131 -- 00_07_29.png -- นี่คือเรื่องราวของธุรกิจที่เริ่มจากศูนย์...
+Nong K standing proudly before CP empire, national impact, Kurzgesagt style, accomplishment, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 132 -- 00_07_33.png -- ตอนนี้คุณรู้แล้วว่าร้านเล็กๆ นั้น ไม่ได้...
+Small 7-Eleven revealing massive empire inside, hidden scale, Kurzgesagt style, revelation, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 133 -- 00_07_36.png -- มันคือบริษัทที่ทำรายได้ทะลุหนึ่งล้านล้าน...
+"1 ล้านล้าน" giant golden text, revenue achievement, Kurzgesagt style, climactic, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 134 -- 00_07_40.png -- มันคือสถานที่ที่คนไทยสิบเอ็ดล้านคนเข้าไป...
+"11 ล้านคน/วัน" with crowd of people entering stores, daily ritual, Kurzgesagt style, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 135 -- 00_07_43.png -- และมันคือตัวอย่างที่ดีที่สุด ของวิธีที่ธ...
+Thailand map transformed by 7-Eleven, national transformation, Kurzgesagt style, impactful, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+SHOT 136 -- 00_07_46.png -- ถ้าชอบคลิปนี้ กด Subscribe กดกระดิ่ง แล้...
+Nong K waving goodbye, subscribe button, bell icon, warm golden glow, Kurzgesagt style, friendly, Kurzgesagt-inspired flat vector illustration, rounded geometric shapes, solid flat colors, high saturation, warm-cool contrast, dark navy gradient background #1A1A3E to #0D2137, no photorealism, no text, 16:9 aspect ratio
+
+==================================================
+NOTES
+==================================================
+
+- All prompts exclude text (add Thai text overlays in CapCut)
+- Character "Nong K" appears in shots: 03, 06, 15, 17, 19, 28, 37, 57, 67, 72, 74, 77, 90, 93, 106, 107, 115, 120, 125, 138
+- Use character sheet as Subject Ingredient in Google Flow for character shots
+- For non-character shots, remove character from prompt
+- Generate in batches of 10, save each to images/ folder
+- Total: 136 unique images
+- IMPORTANT: Rename files to match the filenames above (00_00_00.png, 00_00_03.png, etc.)

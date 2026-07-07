@@ -61,7 +61,7 @@ FORMAT:
 Saved to: output/[topic-slug]/english/script.txt
 
 Same format as Thai version — pure narration text.
-Ready to paste into ElevenLabs English voice.
+Ready for English voice generation or subtitles.
 
 ---
 

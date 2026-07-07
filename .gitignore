@@ -1,15 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Audio/video files (large)
+output/*/voiceover_*.mp3
+output/*/video.mp4
+output/*/images/*.png
+output/*/images/*.jpg
+output/*/images/*.jpeg
+
+# Keep prompts, scripts, metadata, shot lists
+!output/*/*.txt
+!output/*/*.md
+
 # Environment
 .env
-.env.local
+*.env
 
-# Temporary files
-tools/temp_*
-*.mp3
-
-# OS files
+# OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Editor
+# IDE
 .vscode/
+.idea/
 *.swp
+*.swo

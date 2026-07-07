@@ -6,17 +6,18 @@ Copy the prompt below and paste it into a new OpenCode chat, OR just tell me the
 
 ## PROMPT (for reference — OpenCode does this automatically)
 
-You are a YouTube content strategist specializing in tech/AI explainer videos for a Thai audience.
+You are a YouTube content strategist specializing in Thai business case study videos for a Thai audience.
 
-Generate exactly 5 viral video topic angles for: [TOPIC OR NICHE]
+Generate exactly 5 viral video topic angles for: [TOPIC OR COMPANY]
 
 Rules:
-- Each topic must be a question or curiosity gap
-- Titles should be ≤60 characters
-- Target audience: Thai viewers aged 18-35 interested in tech
-- Mix of educational + surprising + slightly clickbaity
-- At least one should reference real research/data
+- Each topic must be a question or curiosity gap about a REAL Thai business
+- Titles should be ≤60 characters in Thai
+- Target audience: Thai viewers aged 18-40 interested in business and money
+- Mix of success stories + failure analysis + competitive battles + hidden money machines
+- At least one should reference real financial data or market research
 - No false claims — clickbait must deliver
+- Curiosity Loop structure: show shocking result first, then promise to explain how
 
 Format as a table:
 
@@ -37,10 +38,26 @@ End with exactly this line:
 
 | # | Video Title | Why It Works |
 |---|-------------|--------------|
-| 1 | ทำไม AI ชอบโกหก? | คนเจอ chatbot โกหกทุกวัน อยากรู้ว่าทำไม |
-| 2 | สมองของคุณ vs ChatGPT ใครฉลาดกว่า? | เปรียบเทียบตัวเองกับ AI ทำให้คนดูรู้สึกเกี่ยวข้อง |
-| 3 | สิ่งที่ Google รู้เกี่ยวกับคุณมากกว่าครอบครัว | ความจริงที่น่าตกใจ เกี่ยวกับ data privacy |
-| 4 | ทำไมโปรแกรมเมอร์จะตกงาน? | กลัว + อยากรู้ = click ทันที |
-| 5 | AI ที่คุณใช้ทุกวันโดยไม่รู้ตัว | เปิดเผยสิ่งซ่อนอยู่ในชีวิตประจำวัน |
+| 1 | ทำไมเซเว่นฯ ครองไทยได้? | คนเข้าเซเว่นฯ ทุกวัน อยากรู้เบื้องหลัง |
+| 2 | ความล้มเหลวของ [brand] ที่ไม่มีใครพูดถึง | Failure analysis = curiosity + lessons learned |
+| 3 | [Company A] vs [Company B] ใครจะชนะ? | Competitive battle = engagement bait |
+| 4 | ธุรกิจที่คุณไม่รู้ว่าทำเงินพันล้าน | Hidden money machines = surprise factor |
+| 5 | จากศูนย์สู่พันล้าน: 故事ของ [founder] | Origin stories = emotional connection |
 
 > **เลือกหัวข้อที่อยากพัฒนา? ตอบเป็นเลข (1-5)**
+
+---
+
+## TOPIC CATEGORIES
+
+Mix topics across these categories for variety:
+
+| Category | Example Format | Why It Works |
+|----------|---------------|--------------|
+| Success Case | "ทำไม [X] ถึงสำเร็จ?" | Aspirational, shareable |
+| Failure Case | "ความล้มเหลวของ [X]" | Cautionary tale, curiosity |
+| Competitive | "[A] vs [B] ใครชนะ?" | Debate = comments = engagement |
+| Hidden Money | "ธุรกิจที่ทำเงินได้เท่านี้?" | Surprise = shares |
+| Origin Story | "จากศูนย์สู่พันล้าน" | Emotional, inspirational |
+| Disruption | "[X] จะถูก disrupt โดย [Y]?" | Fear + curiosity |
+| Behind the Scenes | "เบื้องหลัง [X]" | Insider knowledge = value |

@@ -1,196 +1,230 @@
 """
-ElevenLabs Voice Generator — Video Production Tool
-Generates voiceover audio from script files.
+Thai Voice Generator — Video Production Pipeline
+Generates Thai voiceover audio from script files using Microsoft Edge Neural TTS.
 
 SETUP:
-1. Install: pip install elevenlabs python-dotenv
-2. Create .env file with: ELEVENLABS_API_KEY=your_key_here
-3. Run: python tools/voice-generator.py output/why-ai-hallucinates/script.txt
+1. Install Python 3.10+
+2. Install dependency: pip install edge-tts
+3. No API key needed — uses Microsoft Edge's free TTS service
 
-FREE TIER LIMITS:
-- 10,000 credits/month (~10 min audio)
-- 1 credit = 1 character
-- Voice Library voices NOT available via API
-- Use Voice Design or default voices instead
+USAGE:
+  python tools/voice-generator.py <script.txt> [options]
+
+Examples:
+  python tools/voice-generator.py output/why-7eleven-dominates-thailand/script.txt
+  python tools/voice-generator.py output/why-7eleven-dominates-thailand/script.txt --split
+  python tools/voice-generator.py output/why-7eleven-dominates-thailand/script.txt --voice th-TH-NiwatNeural
+  python tools/voice-generator.py output/why-7eleven-dominates-thailand/script.txt --rate "-10%"
+
+VOICES:
+  th-TH-PremwadeeNeural  — Female (recommended, most natural)
+  th-TH-KanyaNeural      — Female
+  th-TH-AcharaNeural     — Female
+  th-TH-NiwatNeural      — Male
+
+MODEL: Microsoft Edge Neural TTS (via edge-tts)
+  - Production-quality neural voices
+  - Free, no API key, no usage limits
+  - Output: MP3
+  - Supports rate/pitch adjustment
 """
 
 import os
 import sys
+import re
+import asyncio
 import time
 from pathlib import Path
-from dotenv import load_dotenv
 
 try:
-    from elevenlabs.client import ElevenLabs
+    import edge_tts
 except ImportError:
-    print("ERROR: elevenlabs not installed. Run: pip install elevenlabs python-dotenv")
+    print("ERROR: Missing dependency. Install with:")
+    print("  pip install edge-tts")
     sys.exit(1)
 
-load_dotenv()
+DEFAULT_VOICE = "th-TH-PremwadeeNeural"
+DEFAULT_RATE = "+5%"  # Slightly faster for YouTube pacing
 
-API_KEY = os.getenv("ELEVENLABS_API_KEY")
-if not API_KEY:
-    print("ERROR: No API key found.")
-    print("Create .env file in project root with:")
-    print("  ELEVENLABS_API_KEY=your_key_here")
-    print("Get your key at: https://elevenlabs.io/app/settings/api-keys")
-    sys.exit(1)
 
-client = ElevenLabs(api_key=API_KEY)
+def split_script(text: str, max_chars: int = 400) -> list[str]:
+    """
+    Split script into chunks by paragraph/sentence boundaries.
+    Works well with edge-tts which handles longer text better than MMS-TTS.
+    """
+    # Split by double newline (paragraphs)
+    paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
 
-# Default voices that work well with Thai
-# These are pre-built voices available on all plans
-DEFAULT_VOICES = {
-    "george": "JBFqnCBsd6RMkjVDRZzb",
-    "alice": "Xb7hH8MSUJpSbSDYk0k2",
-    "daniel": "onwK4e9ZLuTAKqWW03F9",
-}
+    # Further split long paragraphs by Thai sentence endings
+    sentences = []
+    for para in paragraphs:
+        parts = re.split(r'(?:ครับ|ค่ะ|นะคะ|คับ|เนาะ)\s+', para)
+        if len(parts) > 1:
+            sentences.extend([p.strip() for p in parts if p.strip()])
+        else:
+            sentences.append(para)
 
-def get_voices():
-    """List available voices."""
-    try:
-        voices = client.voices.get_all()
-        return voices.voices
-    except Exception as e:
-        print(f"Error fetching voices: {e}")
-        return []
-
-def generate_voice(text, voice_id, output_path, model_id="eleven_v3", speed=1.0):
-    """Generate audio from text."""
-    try:
-        audio = client.text_to_speech.convert(
-            text=text,
-            voice_id=voice_id,
-            model_id=model_id,
-            output_format="mp3_44100_128",
-            voice_settings={
-                "stability": 0.5,
-                "similarity_boost": 0.75,
-                "speed": speed,
-            }
-        )
-        
-        # Save audio
-        with open(output_path, "wb") as f:
-            for chunk in audio:
-                f.write(chunk)
-        
-        return True
-    except Exception as e:
-        print(f"Error generating voice: {e}")
-        return False
-
-def split_script(text, max_chars=2500):
-    """Split script into chunks for API limits."""
-    paragraphs = text.split("\n\n")
+    # Group sentences into chunks under max_chars
     chunks = []
     current = ""
-    
-    for para in paragraphs:
-        if len(current) + len(para) > max_chars:
-            if current:
-                chunks.append(current.strip())
-            current = para
+    for sent in sentences:
+        if len(current) + len(sent) > max_chars and current:
+            chunks.append(current.strip())
+            current = sent
         else:
-            current += "\n\n" + para if current else para
-    
-    if current:
+            current = current + " " + sent if current else sent
+
+    if current.strip():
         chunks.append(current.strip())
-    
+
     return chunks
 
+
+async def generate_audio(text: str, voice: str, rate: str, output_path: Path, retries: int = 5):
+    """Generate audio from text using edge-tts with retry logic."""
+    for attempt in range(retries):
+        try:
+            communicate = edge_tts.Communicate(text, voice, rate=rate)
+            await communicate.save(str(output_path))
+            return
+        except Exception as e:
+            if attempt < retries - 1:
+                wait = (attempt + 1) * 2
+                print(f"    Retry {attempt+1}/{retries} after {wait}s: {e}")
+                await asyncio.sleep(wait)
+            else:
+                raise
+
+
+async def generate_split(chunks: list[str], voice: str, rate: str, output_dir: Path):
+    """Generate individual audio files per chunk."""
+    durations = []
+    for i, chunk in enumerate(chunks):
+        chunk_path = output_dir / f"voiceover_{i:02d}.mp3"
+        print(f"  [{i+1}/{len(chunks)}] Generating ({len(chunk)} chars)...")
+        await generate_audio(chunk, voice, rate, chunk_path)
+        # Get file size as rough duration indicator
+        size_kb = chunk_path.stat().st_size / 1024
+        print(f"    -> {chunk_path.name} ({size_kb:.0f} KB)")
+        durations.append(chunk_path)
+        # Small delay to avoid rate limiting
+        if i < len(chunks) - 1:
+            await asyncio.sleep(1)
+    return durations
+
+
+async def generate_combined(chunks: list[str], voice: str, rate: str, output_path: Path):
+    """Generate single combined audio file."""
+    if len(chunks) == 1:
+        print("Generating audio...")
+        await generate_audio(chunks[0], voice, rate, output_path)
+        size_kb = output_path.stat().st_size / 1024
+        print(f"SUCCESS: {output_path.name} ({size_kb:.0f} KB)")
+    else:
+        # Generate chunks then combine
+        import tempfile
+        temp_dir = output_path.parent / ".voice_chunks"
+        temp_dir.mkdir(exist_ok=True)
+
+        chunk_files = []
+        for i, chunk in enumerate(chunks):
+            chunk_path = temp_dir / f"chunk_{i:02d}.mp3"
+            print(f"  [{i+1}/{len(chunks)}] Generating ({len(chunk)} chars)...")
+            await generate_audio(chunk, voice, rate, chunk_path)
+            chunk_files.append(chunk_path)
+
+        # Combine MP3 files using ffmpeg if available, otherwise keep separate
+        try:
+            import subprocess
+            # Create concat list
+            list_file = temp_dir / "concat.txt"
+            with open(list_file, "w") as f:
+                for cf in chunk_files:
+                    f.write(f"file '{cf.name}'\n")
+
+            result = subprocess.run(
+                ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(list_file), "-c", "copy", str(output_path)],
+                capture_output=True, text=True, cwd=str(temp_dir)
+            )
+            if result.returncode == 0:
+                size_kb = output_path.stat().st_size / 1024
+                print(f"SUCCESS: {output_path.name} ({size_kb:.0f} KB)")
+            else:
+                print(f"WARNING: ffmpeg concat failed. Keeping separate chunks.")
+                print(f"  Chunks saved to: {temp_dir}")
+                return
+        except FileNotFoundError:
+            print("WARNING: ffmpeg not found. Keeping separate chunks.")
+            print(f"  Install ffmpeg to combine: winget install ffmpeg")
+            print(f"  Chunks saved to: {temp_dir}")
+            return
+
+        # Clean up temp files
+        for cf in chunk_files:
+            cf.unlink()
+        list_file.unlink()
+        temp_dir.rmdir()
+
+
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python voice-generator.py <script.txt> [voice_name] [speed]")
-        print("")
-        print("Arguments:")
-        print("  script.txt   Path to narration script")
-        print("  voice_name   Voice to use (default: george)")
-        print("               Options: george, alice, daniel, or any voice ID")
-        print("  speed        Speaking speed 0.7-1.2 (default: 1.0)")
-        print("")
-        print("Examples:")
-        print("  python voice-generator.py output/why-ai-hallucinates/script.txt")
-        print("  python voice-generator.py output/why-ai-hallucinates/script.txt alice")
-        print("  python voice-generator.py output/why-ai-hallucinates/script.txt george 0.9")
-        sys.exit(1)
-    
-    script_path = Path(sys.argv[1])
-    voice_name = sys.argv[2] if len(sys.argv) > 2 else "george"
-    speed = float(sys.argv[3]) if len(sys.argv) > 3 else 1.0
-    
+    import argparse
+    parser = argparse.ArgumentParser(description="Generate Thai voiceover from script")
+    parser.add_argument("script", help="Path to script .txt file")
+    parser.add_argument("--output", "-o", help="Output filename (default: voiceover.mp3)")
+    parser.add_argument("--split", action="store_true", help="Generate per-paragraph MP3 files")
+    parser.add_argument("--voice", default=DEFAULT_VOICE, help="Voice name (default: th-TH-PremwadeeNeural)")
+    parser.add_argument("--rate", default=DEFAULT_RATE, help="Speech rate (default: +5%%)")
+    parser.add_argument("--max-chars", type=int, default=800, help="Max characters per chunk (default: 800)")
+    parser.add_argument("--list-voices", action="store_true", help="List available Thai voices")
+    args = parser.parse_args()
+
+    if args.list_voices:
+        print("Available Thai voices:")
+        print("  th-TH-PremwadeeNeural  — Female (recommended)")
+        print("  th-TH-KanyaNeural      — Female")
+        print("  th-TH-AcharaNeural     — Female")
+        print("  th-TH-NiwatNeural      — Male")
+        return
+
+    script_path = Path(args.script)
     if not script_path.exists():
         print(f"ERROR: Script not found: {script_path}")
         sys.exit(1)
-    
-    # Resolve voice ID
-    voice_id = DEFAULT_VOICES.get(voice_name.lower(), voice_name)
-    
+
     # Read script
     with open(script_path, "r", encoding="utf-8") as f:
         text = f.read().strip()
-    
+
+    if not text:
+        print("ERROR: Script is empty")
+        sys.exit(1)
+
     char_count = len(text)
-    est_minutes = char_count / 150  # ~150 chars/min for Thai
-    
     print(f"Script: {script_path.name}")
     print(f"Characters: {char_count}")
-    print(f"Estimated duration: {est_minutes:.1f} minutes")
-    print(f"Voice: {voice_name} ({voice_id})")
-    print(f"Speed: {speed}x")
-    print("")
-    
-    # Check credit estimate
-    print(f"Credits needed: ~{char_count} (1 credit per character)")
-    print("")
-    
-    # Split if needed
-    chunks = split_script(text)
-    print(f"Split into {len(chunks)} chunk(s) for processing")
-    print("")
-    
-    # Output path
+    print(f"Voice: {args.voice}")
+    print(f"Rate: {args.rate}")
+    print()
+
+    # Split into chunks
+    chunks = split_script(text, max_chars=args.max_chars)
+    print(f"Split into {len(chunks)} chunk(s)")
+    print()
+
     output_dir = script_path.parent
-    output_path = output_dir / "voiceover.mp3"
-    
-    if len(chunks) == 1:
-        # Single chunk — generate directly
-        print("Generating audio...")
-        if generate_voice(chunks[0], voice_id, output_path, speed=speed):
-            print(f"SUCCESS: Saved to {output_path}")
-        else:
-            print("FAILED: Could not generate audio")
-            sys.exit(1)
+
+    if args.split:
+        asyncio.run(generate_split(chunks, args.voice, args.rate, output_dir))
+        print(f"\nSUCCESS: {len(chunks)} MP3 files saved to {output_dir}")
     else:
-        # Multiple chunks — generate and combine
-        chunk_files = []
-        for i, chunk in enumerate(chunks):
-            chunk_path = output_dir / f"voiceover_chunk_{i:02d}.mp3"
-            print(f"Generating chunk {i+1}/{len(chunks)}...")
-            if generate_voice(chunk, voice_id, chunk_path, speed=speed):
-                chunk_files.append(chunk_path)
-                print(f"  Saved: {chunk_path.name}")
-            else:
-                print(f"  FAILED on chunk {i+1}")
-                sys.exit(1)
-            time.sleep(1)  # Rate limit courtesy
-        
-        # Combine chunks (simple concatenation)
-        print("Combining chunks...")
-        with open(output_path, "wb") as outfile:
-            for cf in chunk_files:
-                with open(cf, "rb") as infile:
-                    outfile.write(infile.read())
-        
-        # Clean up chunk files
-        for cf in chunk_files:
-            cf.unlink()
-        
-        print(f"SUCCESS: Saved to {output_path}")
-    
-    print("")
+        output_name = args.output or "voiceover.mp3"
+        output_path = output_dir / output_name
+        asyncio.run(generate_combined(chunks, args.voice, args.rate, output_path))
+
+    print()
     print("NEXT STEP: Use this audio with your video editor")
-    print(f"  File: {output_path}")
+    print(f"  Output: {output_dir / (args.output or 'voiceover.mp3')}")
+
 
 if __name__ == "__main__":
     main()

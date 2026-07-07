@@ -11,10 +11,10 @@ Say "seo pack for [topic]" and I follow these rules.
 - Clickbait but deliverable
 - Thai language
 - Include curiosity gap or number
-- Examples:
-  - "ทำไม AI ชอบโกหก? ความจริงที่น่าตกใจ"
-  - "สิ่งที่ Google รู้เกี่ยวกับคุณมากกว่าครอบครัว"
-  - "สมองของคุณ vs ChatGPT ใครชนะ?"
+- Business analysis examples:
+  - "ทำไมเซเว่นฯ ครองไทยได้? เบื้องหลังที่คุณไม่รู้"
+  - "ความล้มเหลวพันล้านของ [brand]"
+  - "[Company A] vs [Company B] ใครชนะ?"
 
 ### 2. Description (200-300 words)
 Structure:
@@ -36,47 +36,48 @@ TIMESTAMPS:
 [XX:XX] - [Chapter 2 title]
 ...
 
-OURCES:
+SOURCES:
 - [Source 1 with link]
 - [Source 2 with link]
 - [Source 3 with link]
 
 ---
- Subscribe กดกระดิ่ง 🔔 เพื่อไม่พลาดคลิปใหม่
+ กด Subscribe กดกระดิ่ง 🔔 เพื่อไม่พลาดคลิปใหม่
  Comment บอกว่าคุณคิดยังไง!
 ```
 
 ### 3. Tags (10-15 keywords)
 Mix of:
-- Broad tags: เทคโนโลยี, AI, ปัญญาประดิษฐ์
-- Specific tags: ChatGPT, machine learning, neural network
-- Thai tags: สาระดีๆ, ความรู้, สรุปให้
-- Trending tags: [check YouTube trending]
+- Broad tags: ธุรกิจ, วิเคราะห์ธุรกิจ, เคสสตัดดี้
+- Company-specific: [company name], [brand name], [founder name]
+- Thai tags: สาระดีๆ, ความรู้ธุรกิจ, ทำไม, เบื้องหลัง
+- Format tags: เคสสตัดดี้, วิเคราะห์, สรุปให้
+- Trending tags: [check YouTube trending Thailand]
 
 ### 4. Thumbnail Concepts (3 options)
 Each concept includes:
 - Visual description
-- Text overlay (ALL CAPS, 3-5 words)
+- Text overlay (ALL CAPS, 3-5 words in Thai)
 - Color scheme
-- Image prompt for generation
+- Google Flow image prompt
 
 Example:
 ```
 THUMBNAIL CONCEPT 1:
-- Visual: Stick figure looking shocked at phone screen
-- Text: "AI โกหก?" in RED
-- Colors: White bg, red text, blue phone
-- Prompt: "Stick figure cartoon, shocked expression, looking at glowing phone screen, bold red text overlay 'AI โกหก?', white background, 16:9"
+- Visual: 7-Eleven storefront with dramatic orange glow, money raining
+- Text: "ทำไมถึงครอง?" in WHITE on blue
+- Colors: Deep blue bg, orange accent, white text
+- Prompt: "Flat 2D infographic illustration, 7-Eleven convenience store storefront with dramatic orange glow effect, Thai baht bills floating around, deep blue background, bold white text space at top, business magazine style, 16:9, no photorealism"
 
 THUMBNAIL CONCEPT 2:
-- Visual: Brain vs computer chip side by side
-- Text: "ใครฉลาดกว่า?" in YELLOW
-- Colors: Split bg, brain pink, chip green
+- Visual: Split screen — 7-Eleven logo vs competitor logos
+- Text: "ใครชนะ?" in RED
+- Colors: Split bg, green left, red right
 
 THUMBNAIL CONCEPT 3:
-- Visual: Magnifying glass over code lines
-- Text: "ความลับ" in RED
-- Colors: Dark bg, green code, red magnifier
+- Visual: Giant 7-Eleven number "13,000+" with Thai map
+- Text: "13,000 สาขา" in ORANGE
+- Colors: Light bg, orange number, blue accents
 ```
 
 ---
@@ -103,7 +104,7 @@ Saved to: output/[topic-slug]/metadata.md
 - Visual: [description]
 - Text: "[text overlay]"
 - Colors: [scheme]
-- Prompt: "[full image generation prompt]"
+- Prompt: "[full Google Flow image generation prompt]"
 
 ### Concept 2: [Name]
 ...
@@ -118,7 +119,8 @@ Saved to: output/[topic-slug]/metadata.md
 
 - Titles must be ≤60 characters (YouTube limit)
 - Description must include timestamps (helps with SEO)
-- Tags should mix broad + specific + trending
-- Thumbnail text must be ALL CAPS, max 5 words
-- Thumbnails should work at small size (mobile)
+- Tags should mix broad + specific + company-specific + trending
+- Thumbnail text must be ALL CAPS Thai, max 5 words
+- Thumbnails should work at small size (mobile — most Thai viewers)
 - No misleading claims — clickbait must deliver
+- Business/finance CPM is $3-8 in Thailand — optimize for watch time

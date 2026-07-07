@@ -1,0 +1,193 @@
+=== SHOT LIST: 7-ELEVEN THAILAND ===
+Audio Duration: 7:50 (470s) | 9 chunks | edge-tts -15% rate
+Style: Kurzgesagt-inspired flat vector, mascot character
+Target: 136 shots, ~3.5 sec average per shot (fast cut)
+
+==================================================
+TIMECODE MAP
+==================================================
+
+| Time | Filename | Text Segment | Scene Type | Shot Description |
+|------|----------|-------------|------------|-----------------|
+| 0:00.00 | 00_00_00.png | ปีที่แล้ว บริษัทหนึ่งในประเทศไทย ทำรายได้ทะลุหนึ่งล้านล้านบาท | hero | Giant golden "1 ล้านล้าน" number glowing on dark navy, Nong K character looking up in awe, Kurzgesagt style, dramatic reveal |
+| 0:03.46 | 00_00_03.png | ตัวเลขที่ใหญ่จนเกือบไม่มีความหมาย | data | Abstract large numbers floating and dissolving, golden particles on dark navy, Kurzgesagt style, scale visualization |
+| 0:06.92 | 00_00_06.png | แต่บริษัทที่ว่า คือร้านสะดวกซื้อที่คุณเดินเข้าไปซื้อน้ำแทบทุกวัน | character | Nong K walking into a glowing 7-Eleven store, warm orange light spilling out, dark navy street, Kurzgesagt style, medium shot |
+| 0:10.38 | 00_00_10.png | ร้านเล็กๆ ที่มีอยู่ทุกมุมถนน ทำเงินได้มากกว่าทุกบริษัทในประเทศ | infographic | Aerial view of city with 7-Eleven stores as glowing dots on every corner, Nong K tiny in center, Kurzgesagt style, wide shot |
+| 0:13.84 | 00_00_13.png | มากกว่าธนาคาร มากกว่าโรงกลั่นน้ำมัน มากกว่าบริษัทเทคโนโลยีทุกแห่ง | comparison | Split comparison: 7-Eleven icon larger than bank, oil refinery, tech company icons, Kurzgesagt style, size hierarchy |
+| 0:17.29 | 00_00_17.png | วันนี้เราจะมาวิเคราะห์กันว่า เซเว่นอีเลฟเว่น ครองประเทศไทยได้ยังไง | character | Nong K with magnifying glass examining 7-Eleven logo, analytical pose, dark navy background, Kurzgesagt style, medium shot |
+| 0:20.75 | 00_00_20.png | แล้วคุณจะรู้ว่าเบื้องหลังร้านสะดวกซื้อธรรมดาๆ นี้ คือแผนธุรกิจที่ซับซ้อนที่สุด | framework | Complex interconnected gears and systems diagram behind 7-Eleven facade, blueprint style, Kurzgesagt style, revealing depth |
+| 0:24.21 | 00_00_24.png | ...pause... | transition | Abstract transition: golden particles forming pattern, dark navy, Kurzgesagt style, 1 sec |
+| 0:27.67 | 00_00_27.png | ทั่วประเทศไทย มีเซเว่นอีเลฟเว่น 15,945 สาขา | data | Thailand map with "15,945" in giant golden text, store dots scattered across map, Kurzgesagt style, wide shot |
+| 0:31.13 | 00_00_31.png | มากกว่าญี่ปุ่นด้วยซ้ำ ถ้าเทียบกับจำนวนประชากร | comparison | Side-by-side: Thailand flag with 22 dots vs Japan flag with 17.5 dots, per-capita comparison, Kurzgesagt style |
+| 0:34.59 | 00_00_34.png | ไทยมีเซเว่นประมาณ 22 สาขาต่อประชากรหนึ่งแสนคน ญี่ปุ่นมีแค่ 17.5 | data | Bar chart: Thailand bar taller than Japan bar, golden yellow bars on dark navy, Kurzgesagt style, clean infographic |
+| 0:38.05 | 00_00_38.png | ทุกวัน มีคนเข้าเซเว่นมากกว่าสิบเอ็ดล้านคน | data | "11 ล้าน" in giant golden text with crowd of tiny flat vector people flowing into 7-Eleven icons, Kurzgesagt style |
+| 0:41.51 | 00_00_41.png | เกือบหนึ่งในหกของคนไทย เข้าเซเว่นทุกวัน | data | Pie chart showing 1/6 highlighted in golden, remaining 5/6 in dark teal, Kurzgesagt style, simple infographic |
+| 0:44.96 | 00_00_44.png | ถ้าคุณอยู่กรุงเทพฯ คุณแทบจะเจอเซเว่นทุกหัวถนน | map | Bangkok street map with 7-Eleven icons on every intersection, glowing density, Kurzgesagt style, aerial view |
+| 0:48.42 | 00_00_48.png | บางแยกมีสองสาขา อยู่ตรงข้ามกัน | map | Close-up of intersection with two 7-Eleven stores facing each other, Nong K confused in middle, Kurzgesagt style, humorous |
+| 0:51.88 | 00_00_51.png | และทุกสาขา เปิดยี่สิบสี่ชั่วโมง | data | Clock showing 24 hours with 7-Eleven glowing through all hours, night-to-day cycle, Kurzgesagt style |
+| 0:55.34 | 00_00_55.png | ไม่ว่าจะตีสาม ตีสี่ คุณก็เข้าเซเว่นได้ | character | Nong K at 3AM entering brightly lit 7-Eleven, dark street outside, warm light inside, Kurzgesagt style, cozy mood |
+| 0:58.80 | 00_00_58.png | ในต่างจังหวัด ถ้าเมืองไหนมีเซเว่น เมืองนั้นถือว่าโตแล้ว | map | Rural Thailand map with single glowing 7-Eleven dot, small town celebration, Kurzgesagt style, wide shot |
+| 1:02.26 | 00_01_02.png | คนในพื้นที่มองว่าเซเว่นคือสัญลักษณ์ของความทันสมัย | character | Nong K as small-town resident looking at 7-Eleven with sparkly eyes, pride expression, Kurzgesagt style |
+| 1:05.72 | 00_01_05.png | และสาขาแรก แทบจะล้มเหลว | crisis | Cracked/falling 7-Eleven store icon, red warning tones, downward arrow, Kurzgesagt style, dramatic |
+| 1:09.18 | 00_01_09.png | Revenue ของ CP All... หนึ่งล้านสองหมื่นสองพันล้านบาท | data | Revenue chart climbing to 1.02 trillion, golden glow at peak, Kurzgesagt style, triumphant |
+| 1:12.64 | 00_01_12.png | กำไรสุทธิ เกือบสามหมื่นล้านบาท | data | Profit bar "28.2 พันล้าน" in golden, upward trend, Kurzgesagt style, clean infographic |
+| 1:16.09 | 00_01_16.png | ตัวเลขเหล่านี้ ใหญ่กว่า PTT ใหญ่กว่าธนาคารไทยพาณิชย์ | comparison | Size comparison: 7-Eleven icon larger than PTT, SCB, and tech icons, Kurzgesagt style, hierarchy |
+| 1:19.55 | 00_01_19.png | ...pause... | transition | Golden particles reassemble, dark navy, Kurzgesagt style, 1 sec |
+| 1:23.01 | 00_01_23.png | ปี 1989 สาขาแรกเปิดบนถนนพัฒน์พงศ์ | timeline | Patpong Road Bangkok 1989, first 7-Eleven store, vintage feel, Kurzgesagt flat vector style, historical |
+| 1:26.47 | 00_01_26.png | พื้นที่ที่เต็มไปด้วยนักท่องเที่ยว | map | Patpong area map with tourist icons, neon signs, busy street, Kurzgesagt style, vibrant |
+| 1:29.93 | 00_01_29.png | คนไทยไม่เข้าใจว่าร้านสะดวกซื้อคืออะไร | character | Nong K confused, question marks floating, Thai people looking puzzled at 7-Eleven, Kurzgesagt style |
+| 1:33.39 | 00_01_33.png | ทำไมต้องเข้าไปซื้อของแพงกว่าร้านชำข้างบ้าน? | comparison | Split: expensive 7-Eleven items vs cheap mom-and-pop shop, price tags, Kurzgesagt style |
+| 1:36.85 | 00_01_36.png | ร้านชำข้างบ้าน คุยกันได้ จดบัญชีได้ ไม่ต้องมีแอร์ | character | Warm scene of traditional Thai shop, grandma selling, neighbor chatting, Kurzgesagt style, nostalgic |
+| 1:40.31 | 00_01_40.png | สาขาแรกขาดทุน | crisis | Downward red arrow, empty 7-Eleven store, red loss numbers, Kurzgesagt style, somber |
+| 1:43.76 | 00_01_43.png | แต่คนที่นำเซเว่นเข้ามา ไม่ใช่บริษัทค้าปลีก | hero | Mystery reveal: shadowy CP Group logo emerging, question mark, Kurzgesagt style, dramatic |
+| 1:47.22 | 00_01_47.png | เป็นร้านขายเมล็ดพันธุ์เล็กๆ ที่เริ่มในยุค 1920s | timeline | Small seed shop icon, 1920s vintage style, two brothers silhouette, Kurzgesagt flat vector, sepia tones |
+| 1:50.68 | 00_01_50.png | พี่น้องชาวจีนสองคนอพยพจากกวางตุ้ง มาเปิดร้านขายเมล็ดพันธุ์ในกรุงเทพฯ | character | Two simple flat vector characters (brothers) arriving in Bangkok with seed bags, Kurzgesagt style, journey |
+| 1:54.14 | 00_01_54.png | ร้านนั้นคือจุดเริ่มต้นของเครือเจริญโภคภัณฑ์ หรือซีพี | hero | Small seed shop growing into giant CP Group logo/tree, organic growth metaphor, Kurzgesagt style |
+| 1:57.60 | 00_01_57.png | สองพี่น้องเริ่มจากศูนย์ ไม่มีเงินทุน ไม่มีเส้นสาย | data | "0" in golden, empty hands, humble beginning, dark navy, Kurzgesagt style, minimalist |
+| 2:01.06 | 00_02_01.png | แค่ขายเมล็ดพันธุ์ให้เกษตรกรไทย | character | Brothers selling seeds to Thai farmers, rural scene, warm golden tones, Kurzgesagt style |
+| 2:04.52 | 00_02_04.png | แต่พวกเขามีวิสัยทัศน์ เห็นว่าเมล็ดพันธุ์คือจุดเริ่มต้นของห่วงโซ่อาหารทั้งหมด | framework | Vision bubble showing food chain: seed → feed → farm → factory, connected dots, Kurzgesagt style |
+| 2:07.98 | 00_02_07.png | จากเมล็ดพันธุ์ สู่อาหารสัตว์ สู่ฟาร์ม สู่โรงงาน | timeline | Horizontal chain: seed icon → feed bag → chicken → factory, golden connecting line, Kurzgesagt style |
+| 2:11.44 | 00_02_11.png | ซีพีค่อยๆ ขยายจากต้นน้ำไปปลายน้ำ | framework | Upstream-to-downstream flow diagram, water metaphor, CP expanding through supply chain, Kurzgesagt style |
+| 2:14.89 | 00_02_14.png | จนกลายเป็นกลุ่มเกษตรอุตสาหกรรมที่ใหญ่ที่สุดในเอเชีย | hero | Giant CP Group building towering over Asia map, golden glow, Kurzgesagt style, impressive scale |
+| 2:18.35 | 00_02_18.png | ธนินทร์ เจียรวนนท์ ทายาทรุ่นที่สาม คือคนที่เปลี่ยนซีพีเป็นอาณาจักรธุรกิจ | character | Silhouette of businessman (Dhanin) standing before CP empire, backlit golden, Kurzgesagt style, dramatic |
+| 2:21.81 | 00_02_21.png | ปี 1987 ธนินทร์ไปเจรจากับเซเว่นที่อเมริกา | timeline | 1987 marker, airplane from Thailand to USA, Kurzgesagt flat vector style, journey |
+| 2:25.27 | 00_02_25.png | อเมริกามองว่ากำลังซื้อคนไทยต่ำเกินไป | comparison | American executives dismissing, hand gesture "no", Thai flag small, Kurzgesagt style, rejection |
+| 2:28.73 | 00_02_28.png | ไทยยังเป็นประเทศกำลังพัฒนา รายได้เฉลี่ยต่อหัวต่ำมาก | data | Low bar chart showing Thailand income vs USA, gap visualization, Kurzgesagt style |
+| 2:32.19 | 00_02_32.png | ไม่มีทางที่ร้านสะดวกซื้อจะอยู่รอดได้ | crisis | X mark over 7-Eleven store, red warning, doubt, Kurzgesagt style, dramatic |
+| 2:35.65 | 00_02_35.png | แต่ธนินทร์ไม่ยอมแพ้ เขาเชิญผู้บริหารอเมริกันมาเที่ยวเมืองไทย | character | Dhanin character inviting American characters to Thailand, warm gesture, Kurzgesagt style |
+| 2:39.11 | 00_02_39.png | พาไปดูตลาดสด ดูย่านธุรกิจ ดูวิถีชีวิตคนไทย | map | Tour of Bangkok: market, business district, daily life scenes as flat vector vignettes, Kurzgesagt style |
+| 2:42.56 | 00_02_42.png | ให้เห็นด้วยตาว่ากรุงเทพฯ ไม่ใช่เมืองเล็กๆ | hero | Panoramic Bangkok skyline as flat vector, skyscrapers, busy streets, Kurzgesagt style, impressive |
+| 2:46.02 | 00_02_46.png | ให้เห็นว่าคนไทยมีกำลังซื้อ แค่ต้องเข้าถึงให้ถูกวิธี | data | Rising bar chart showing Thai consumer potential, golden upward trend, Kurzgesagt style, hopeful |
+| 2:49.48 | 00_02_49.png | เซเว่นมอบสิทธิ์แฟรนไชส์ให้ซีพี | hero | Handshake between 7-Eleven and CP Group logos, golden glow, deal sealed, Kurzgesagt style |
+| 2:52.94 | 00_02_52.png | แต่สิทธิ์นั้นมาพร้อมกับความเสี่ยง | crisis | Franchise contract with warning symbols, red accents, risk visualization, Kurzgesagt style |
+| 2:56.40 | 00_02_56.png | เพราะสาขาแรก พิสูจน์แล้วว่าโมเดลอเมริกาใช้ไม่ได้ในไทย | comparison | Side-by-side: American 7-Eleven (different) vs Thai 7-Eleven (needs adaptation), Kurzgesagt style |
+| 2:59.86 | 00_02_59.png | ...pause... | transition | Golden particles morph, dark navy, Kurzgesagt style, 1 sec |
+| 3:03.32 | 00_03_03.png | สิ่งที่ซีพีทำต่อไป คือสิ่งที่ทำให้เซเว่นในไทย แตกต่างจากทุกประเทศในโลก | hero | Thai 7-Eleven glowing differently from world map versions, unique star, Kurzgesagt style, pride |
+| 3:06.78 | 00_03_06.png | พวกเขาไม่ได้ก๊อปปี้โมเดล พวกเขาสร้างโมเดลใหม่ | framework | Copy symbol crossed out, new blueprint unfolding, innovation metaphor, Kurzgesagt style |
+| 3:10.24 | 00_03_10.png | สิ่งแรกที่พวกเขาทำ คือเข้าใจว่าคนไทยกินอะไร | character | Nong K with thought bubble showing Thai food icons, thinking expression, Kurzgesagt style |
+| 3:13.69 | 00_03_13.png | คนไทยไม่ได้กินแซนดิชหรือฮอทด็อก | comparison | Sandwich and hotdog icons crossed out in red, Kurzgesagt style, humorous rejection |
+| 3:17.15 | 00_03_17.png | คนไทยกินข้าว | hero | Glowing bowl of rice, golden steam, warm tones, Kurzgesagt style, celebratory |
+| 3:20.61 | 00_03_20.png | ผัดกะเพรา ข้าวมันไก่ ต้มยำกุ้ง แกงเขียวหวาน อาหารที่คนไทยกินทุกวัน | infographic | Four Thai dishes as flat vector icons in grid, colorful, appetizing, Kurzgesagt style, food icons |
+| 3:24.07 | 00_03_24.png | ซีพีสร้างโรงงาน CPRAM ผลิตอาหารให้เซเว่นโดยเฉพาะ | framework | Factory building labeled CPRAM, production line, conveyor belt, Kurzgesagt style, industrial |
+| 3:27.53 | 00_03_27.png | EZYgo ข้าวกล่องพร้อมทาน อุ่นไมโครเวฟแค่สองนาทีก็กินได้ | hero | EZYgo meal box glowing, microwave timer "2:00", warm golden, Kurzgesagt style, appetizing |
+| 3:30.99 | 00_03_30.png | ราคาแค่สามสิบถึงห้าสิบบาท | data | Price tag "30-50 บาท" in golden, affordable indicator, green checkmark, Kurzgesagt style |
+| 3:34.45 | 00_03_34.png | อาหารสดส่งวันละสามรอบ เช้า กลางวัน เย็น | timeline | Three delivery trucks at morning/noon/evening markers, circular schedule, Kurzgesagt style |
+| 3:37.91 | 00_03_37.png | ทุกสาขาในไทย ได้รับอาหารสดวันละสามครั้ง | data | Map with delivery routes to all stores, three waves, Kurzgesagt style, logistics visualization |
+| 3:41.36 | 00_03_41.png | ระบบนี้ซีพีลงทุนสร้างมาหลายปี | framework | Investment timeline with building blocks, years stacking up, Kurzgesagt style, patience |
+| 3:44.82 | 00_03_44.png | แต่มันคือเหตุผลที่คุณเข้าเซเว่นแล้วเจอข้าวกล่องใหม่เสมอ | character | Nong K happy discovering new meal boxes, surprised expression, warm glow, Kurzgesagt style |
+| 3:48.28 | 00_03_48.png | Counter Service ที่เปิดปี 1994 คืออีกก้าวสำคัญ | timeline | 1994 marker, Counter Service launch, bill payment icons, Kurzgesagt style, historical |
+| 3:51.74 | 00_03_51.png | จ่ายค่าไฟ ค่าน้ำ ค่าโทรศัพท์ จ่ายบัตรเครดิต จ่ายได้หมดที่เซเว่น | infographic | Bill payment icons: electricity, water, phone, credit card, all flowing to 7-Eleven, Kurzgesagt style |
+| 3:55.20 | 00_03_55.png | ไม่ต้องไปธนาคาร ไม่ต้องต่อคิว | comparison | Long bank queue vs quick 7-Eleven counter, speed comparison, Kurzgesagt style, relatable |
+| 3:58.66 | 00_03_58.png | เมื่อคุณเข้าไปจ่ายบิล คุณก็ซื้อข้าวกล่องติดมือออกมาด้วย | character | Nong K paying bill then grabbing meal box, dual action, Kurzgesagt style, clever |
+| 4:02.12 | 00_04_02.png | คุณเข้าเซเว่นไม่ใช่เพราะอยากซื้อของ แต่เพราะมีเหตุผลอื่นให้เข้า | framework | Multiple reason arrows pointing to 7-Eleven: bill, food, coffee, ATM, Kurzgesagt style, ecosystem |
+| 4:05.58 | 00_04_05.png | แล้วคุณก็ซื้อของติดไม้ติดมือทุกครั้ง | character | Nong K leaving with arms full of items, impulse buy, happy expression, Kurzgesagt style |
+| 4:09.04 | 00_04_09.png | นี่คือระบบที่ทำให้เซเว่นกลายเป็นศูนย์กลางชีวิตประจำวัน | framework | Hub-and-spoke diagram: 7-Eleven at center, daily life activities radiating out, Kurzgesagt style |
+| 4:12.49 | 00_04_12.png | All Café กาแฟราคาสามสิบบาท แข่งกับร้านกาแฟได้เลย | hero | All Café coffee cup with "30 บาท" price, steam rising, warm golden, Kurzgesagt style, inviting |
+| 4:15.95 | 00_04_15.png | ไม่ต้องไปร้านกาแฟ แค่เดินเข้าเซเว่น | character | Nong K holding All Café coffee, walking from 7-Eleven, satisfied expression, Kurzgesagt style |
+| 4:19.41 | 00_04_19.png | ระบบแฟรนไชส์ทำให้ขยายตัวได้เร็ว ปีละเจ็ดร้อยสาขาใหม่ | data | "700 สาขา/ปี" in golden, rapid growth animation, expanding dots, Kurzgesagt style |
+| 4:22.87 | 00_04_22.png | จากสาขาแรกในปี 1989 สู่ 15,945 สาขาในปี 2025 | timeline | Growth curve from 1 to 15,945, exponential line, golden glow, Kurzgesagt style, impressive |
+| 4:26.33 | 00_04_26.png | เฉลี่ยวันละสองสาขาใหม่ ทุกวัน เป็นเวลาสามสิบหกปี | data | Calendar flipping rapidly, new store icons appearing daily, Kurzgesagt style, momentum |
+| 4:29.79 | 00_04_29.png | 51% เป็นสาขาที่ซีพีเป็นเจ้าของเอง | data | Pie chart: 51% golden (corporate), Kurzgesagt style, clean infographic |
+| 4:33.25 | 00_04_33.png | 43% เป็นแฟรนไชส์ Store Business Partner | data | Pie chart: 43% teal (SBP), Kurzgesagt style, clean infographic |
+| 4:36.71 | 00_04_36.png | 6% เป็นสิทธิ์ย่อยในพื้นที่ห่างไกล | data | Pie chart: 6% coral (sub-area), Kurzgesagt style, complete breakdown |
+| 4:40.16 | 00_04_40.png | ระบบนี้ทำให้ซีพีควบคุมคุณภาพได้ แต่ก็ขยายตัวได้เร็ว | framework | Balance scale: quality control vs rapid expansion, both balanced, Kurzgesagt style |
+| 4:43.62 | 00_04_43.png | SBP คือโมเดลที่ซีพีคิดค้นขึ้นมาเอง | framework | Innovation lightbulb with SBP model diagram, unique creation, Kurzgesagt style |
+| 4:47.08 | 00_04_47.png | ต่างจากแฟรนไชส์ทั่วไปที่ต้องลงทุนเองทั้งหมด | comparison | Traditional franchise (investor pays everything) vs SBP (CP owns assets), Kurzgesagt style |
+| 4:50.54 | 00_04_50.png | SBP ให้ซีพีเป็นเจ้าของทรัพย์สิน ส่วนผู้จัดการร้านแค่บริหาร | framework | Ownership diagram: CP owns building, manager operates, split responsibility, Kurzgesagt style |
+| 4:54.00 | 00_04_54.png | ความเสี่ยงต่ำกว่า ขยายได้เร็วกว่า | data | Risk meter low, speed meter high, dual gauge, Kurzgesagt style, clear visualization |
+| 4:57.46 | 00_04_57.png | SBP ยังมี sub-area license สำหรับพื้นที่ห่างไกล | map | Remote areas of Thailand with small 7-Eleven icons, reaching everywhere, Kurzgesagt style |
+| 5:00.92 | 00_05_00.png | ให้ผู้ประกอบการท้องถิ่นเปิดเซเว่นในหมู่บ้าน ตำบล ที่ซีพีเข้าไม่ถึง | character | Local entrepreneur opening 7-Eleven in rural village, community, Kurzgesagt style, inclusive |
+| 5:04.38 | 00_05_04.png | ระบบนี้ทำให้เซเว่นเข้าถึงทุกพื้นที่ในประเทศ | map | Thailand fully covered in golden dots, complete coverage, Kurzgesagt style, achievement |
+| 5:07.84 | 00_05_07.png | ...pause... | transition | Golden particles swirl, new chapter, Kurzgesagt style, 1 sec |
+| 5:11.29 | 00_05_11.png | ตอนนี้คุณอาจจะคิดว่า เซเว่นชนะเพราะอาหารและสาขาเยอะ | character | Nong K thinking, thought bubble with food + stores, surface-level analysis, Kurzgesagt style |
+| 5:14.75 | 00_05_14.png | แต่จริงๆ แล้ว ระบบนิเวศต่างหากคืออาวุธลับ | hero | Iceberg metaphor: food/stores above water, ecosystem below, secret weapon reveal, Kurzgesagt style |
+| 5:18.21 | 00_05_18.png | เซเว่นในไทยไม่รับคิวอาร์ของธนาคารปกติ | data | QR code with red X, bank logos rejected, surprising fact, Kurzgesagt style |
+| 5:21.67 | 00_05_21.png | ต้องใช้ TrueMoney Wallet ที่ซีพีเป็นเจ้าของ | hero | TrueMoney wallet icon glowing, CP Group ownership badge, Kurzgesagt style, revealing |
+| 5:25.13 | 00_05_25.png | เพราะซีพีต้องการให้ทุกธุรกรรมอยู่ในเครือ | framework | Closed loop diagram: all money flowing within CP ecosystem, Kurzgesagt style, strategic |
+| 5:28.59 | 00_05_28.png | TrueMoney คือระบบชำระเงินดิจิทัลของ Ascend Money ที่ซีพีเป็นเจ้าของ | hero | TrueMoney logo with "30 ล้านผู้ใช้" text, network visualization, Kurzgesagt style |
+| 5:32.05 | 00_05_32.png | มีผู้ใช้งานมากกว่าสามสิบล้านคนในประเทศไทย | data | "30 ล้าน" in golden with user icons spreading across Thailand map, Kurzgesagt style |
+| 5:35.51 | 00_05_35.png | เมื่อคุณจ่ายเงินผ่าน TrueMoney ข้อมูลทุกอย่างอยู่ในมือซีพี | framework | Data flow: payment → CP database, information gathering, Kurzgesagt style, strategic |
+| 5:38.96 | 00_05_38.png | ซีพีรู้ว่าคุณกินอะไร จ่ายอะไร เข้าเซเว่นตอนไหน | data | Dashboard showing user data: food preferences, spending, visit times, Kurzgesagt style, surveillance |
+| 5:42.42 | 00_05_42.png | ข้อมูลนี้มีค่ามหาศาล | data | Data treasure chest glowing golden, valuable information, Kurzgesagt style, insight |
+| 5:45.88 | 00_05_45.png | กินข้าวที่เซเว่น จ่ายบิลที่เซเว่น จ่ายเงินผ่าน TrueMoney | framework | Three activities circling around 7-Eleven, daily routine loop, Kurzgesagt style, routine |
+| 5:49.34 | 00_05_49.png | True Corporation ที่ให้บริการมือถือ ก็อยู่ในเครือซีพี | framework | True Corp logo connecting to CP ecosystem, telecom integration, Kurzgesagt style, network |
+| 5:52.80 | 00_05_52.png | ทุกอย่างเชื่อมต่อกัน | framework | Complete ecosystem diagram: 7-Eleven + TrueMoney + True Corp + CP Foods, all connected, Kurzgesagt style |
+| 5:56.26 | 00_05_56.png | ซีพีไม่ได้แค่ขายของให้คุณ ซีพีสร้างชีวิตประจำวันของคุณ | character | Nong K surrounded by CP services, daily life bubble, immersed in ecosystem, Kurzgesagt style |
+| 5:59.72 | 00_05_59.png | คุณอาจจะไม่รู้ตัวด้วยซ้ำ ว่าทุกอย่างที่คุณทำในหนึ่งวัน ผ่านเซเว่นหมดแล้ว | character | Nong K surprised, invisible walls of ecosystem around them, thought-provoking, Kurzgesagt style |
+| 6:03.18 | 00_06_03.png | ...pause... | transition | Ecosystem diagram dissolving, new topic emerging, Kurzgesagt style, 1 sec |
+| 6:06.64 | 00_06_06.png | CJ More คือคู่แข่งใหม่ที่น่าจับตา | hero | CJ More logo emerging as rival, red competitive glow, Kurzgesagt style, threat introduction |
+| 6:10.09 | 00_06_10.png | CJ Express กำลังขยายเร็วมาก ปีละหกร้อยสาขา | data | "600 สาขา/ปี" in red, rapid expansion arrows, Kurzgesagt style, aggressive growth |
+| 6:13.55 | 00_06_13.png | ตั้งเป้าจะมีสามพันหนึ่งร้อยสาขาภายในปี 2028 | timeline | CJ More growth curve targeting 3,100 by 2028, red line climbing, Kurzgesagt style, ambition |
+| 6:17.01 | 00_06_17.png | CJ More เน้นราคาถูก เน้นคนต่างจังหวัด | comparison | CJ More budget positioning vs 7-Eleven convenience, different strategies, Kurzgesagt style |
+| 6:20.47 | 00_06_20.png | เป็นภัยคุกคามต่อเซเว่นในตลาดที่ซีพีเคยผูกขาด | crisis | CJ More shadow looming over 7-Eleven dominance, red warning, Kurzgesagt style, tension |
+| 6:23.93 | 00_06_23.png | และในขณะเดียวกัน ร้านโชห่วยสี่แสนร้านทั่วประเทศ ก็ยังอยู่ | map | Thailand map with 400,000 small shop icons, traditional retail, Kurzgesagt style, scale |
+| 6:27.39 | 00_06_27.png | ร้านชำข้างบ้าน คุณยายขายของ ยังเป็นทางเลือกของคนจำนวนมาก | character | Grandma at traditional shop, warm community scene, Kurzgesagt style, nostalgic |
+| 6:30.85 | 00_06_30.png | เซเว่นอาจครองตลาด แต่ไม่ได้แปลว่าจะครองตลอดไป | framework | Crown on 7-Eleven but cracking, competition closing in, Kurzgesagt style, uncertain future |
+| 6:34.31 | 00_06_34.png | ...pause... | transition | Final chapter transition, golden particles, Kurzgesagt style, 1 sec |
+| 6:37.76 | 00_06_37.png | บทเรียนจากเรื่องนี้ | hero | Book opening with golden light, lessons emerging, Kurzgesagt style, wisdom |
+| 6:41.22 | 00_06_41.png | อย่าดูถูกตลาดที่ดูเล็ก ซีพีเริ่มจากร้านขายเมล็ดพันธุ์เล็กๆ | character | Tiny seed shop growing into empire, scale transformation, Kurzgesagt style, inspiring |
+| 6:44.68 | 00_06_44.png | พี่น้องสองคนจากกวางตุ้ง ไม่มีอะไรเลย แต่พวกเขาเห็นโอกาส | character | Two brothers with vision bubble, humble start, golden opportunity, Kurzgesagt style |
+| 6:48.14 | 00_06_48.png | แล้วค่อยๆ ขยายไปทีละขั้น | timeline | Step-by-step growth: seed → feed → farm → factory → retail, staircase, Kurzgesagt style |
+| 6:51.60 | 00_06_51.png | ระบบนิเวศสำคัญกว่าสินค้า | framework | Ecosystem (large circle) encompassing product (small circle), priority visualization, Kurzgesagt style |
+| 6:55.06 | 00_06_55.png | เซเว่นชนะเพราะสร้างระบบที่ทำให้คุณต้องกลับมาทุกวัน | framework | Return loop: customer → 7-Eleven → services → back to 7-Eleven, daily cycle, Kurzgesagt style |
+| 6:58.52 | 00_06_58.png | ไม่ใช่แค่ขายของดี แต่ทำให้คุณไม่มีทางเลือกอื่น | framework | Single path to 7-Eleven, no exits, ecosystem lock-in concept, Kurzgesagt style |
+| 7:01.98 | 00_07_01.png | ปรับตัวให้เข้ากับท้องถิ่น | character | Nong K adapting, morphing between Japanese and Thai 7-Eleven styles, Kurzgesagt style |
+| 7:05.44 | 00_07_05.png | เซเว่นในญี่ปุ่นกับไทย แทบจะเป็นคนละร้าน | comparison | Japan 7-Eleven (onigiri, bento) vs Thai 7-Eleven (pad kra pao, rice box), Kurzgesagt style |
+| 7:08.89 | 00_07_08.png | ญี่ปุ่นเน้นข้าวปั้น ไทยเน้นข้าวกล่องผัดกะเพรา | comparison | Specific product comparison: Japanese rice ball vs Thai stir-fry box, Kurzgesagt style, cultural |
+| 7:12.35 | 00_07_12.png | คิดระยะยาว | hero | Long road stretching to horizon, patience metaphor, golden sunset, Kurzgesagt style, reflective |
+| 7:15.81 | 00_07_15.png | ซีพีไม่ได้หวังกำไรจากสาขาแรก | data | First store with red loss numbers, long-term investment, Kurzgesagt style, patience |
+| 7:19.27 | 00_07_19.png | พวกเขาลงทุนสิบปี ก่อนที่จะเริ่มมีกำไรจริงจัง | timeline | 10-year investment period marked, growth curve delayed, Kurzgesagt style, strategic |
+| 7:22.73 | 00_07_22.png | ทุกวันนี้ กำไรต่อปีเกือบสามหมื่นล้านบาท | data | "28.2 พันล้าน" in golden, profit mountain, Kurzgesagt style, payoff |
+| 7:26.19 | 00_07_26.png | จากเมล็ดพันธุ์เล็กๆ ในยุค 1920 สู่อาณาจักรหนึ่งล้านล้าน | timeline | Full journey: seed (1920) → empire (2025), golden path, Kurzgesagt style, epic scale |
+| 7:29.65 | 00_07_29.png | นี่คือเรื่องราวของธุรกิจที่เริ่มจากศูนย์ แล้วกลายเป็นส่วนหนึ่งของชีวิตคนทั้งประเทศ | character | Nong K standing proudly before CP empire, national impact, Kurzgesagt style, accomplishment |
+| 7:33.11 | 00_07_33.png | ตอนนี้คุณรู้แล้วว่าร้านเล็กๆ นั้น ไม่ได้เล็กอย่างที่เห็น | hero | Small 7-Eleven revealing massive empire inside, hidden scale, Kurzgesagt style, revelation |
+| 7:36.56 | 00_07_36.png | มันคือบริษัทที่ทำรายได้ทะลุหนึ่งล้านล้านบาท | data | "1 ล้านล้าน" giant golden text, revenue achievement, Kurzgesagt style, climactic |
+| 7:40.02 | 00_07_40.png | มันคือสถานที่ที่คนไทยสิบเอ็ดล้านคนเข้าไปทุกวัน | data | "11 ล้านคน/วัน" with crowd of people entering stores, daily ritual, Kurzgesagt style |
+| 7:43.48 | 00_07_43.png | และมันคือตัวอย่างที่ดีที่สุด ของวิธีที่ธุรกิจหนึ่ง เปลี่ยนวิถีชีวิตของคนทั้งประเทศ | hero | Thailand map transformed by 7-Eleven, national transformation, Kurzgesagt style, impactful |
+| 7:46.94 | 00_07_46.png | ถ้าชอบคลิปนี้ กด Subscribe กดกระดิ่ง แล้วเจอกันครับ | closing | Nong K waving goodbye, subscribe button, bell icon, warm golden glow, Kurzgesagt style, friendly |
+
+==================================================
+SHOT STATISTICS
+==================================================
+
+Total shots: 136
+Average duration per shot: 3.5 seconds
+Scene type breakdown:
+- data: 28 shots
+- character: 24 shots
+- framework: 20 shots
+- hero: 18 shots
+- comparison: 12 shots
+- timeline: 11 shots
+- map: 8 shots
+- transition: 6 shots
+- crisis: 5 shots
+- infographic: 3 shots
+- closing: 1 shots
+
+==================================================
+AGENT BRIEF
+==================================================
+
+Style Bible:
+- Kurzgesagt-inspired flat vector illustration
+- Deep navy/teal gradient backgrounds
+- Warm golden/coral/orange foreground elements
+- Mascot character appears in ~30% of shots
+- No photorealism, no text in images (text added in post)
+- 16:9 aspect ratio, 1280x720 minimum
+- Clean geometric shapes, rounded corners
+- High saturation, high contrast
+
+Character Lock:
+- Golden orange rounded rectangle body, black dot eyes, tiny round glasses, small gradient wings
+- Expression through eye position + body tilt + wing position
+- Consistent across all shots (use character sheet as reference)
+
+Rules:
+1. No text in generated images (all text added in CapCut)
+2. Consistent color palette across all images
+3. Character appears in hook, transitions, and emotional beats
+4. Data/stats scenes use infographic style
+5. Dark backgrounds always, warm foregrounds
+6. Each image must work as standalone thumbnail
