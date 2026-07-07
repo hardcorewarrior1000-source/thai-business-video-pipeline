@@ -1,0 +1,154 @@
+=== SHOT LIST: WHY BIGC LOST TO 7-ELEVEN ===
+Audio Duration: ~8 min (estimated) | 11 chunks | edge-tts -15% rate
+Style: Kurzgesagt-inspired flat vector, mascot character
+Target: ~140 shots, ~3.5 sec average per shot (fast cut)
+
+==================================================
+TIMECODE MAP
+==================================================
+
+| Time | Filename | Text Segment | Scene Type | Shot Description |
+|------|----------|-------------|------------|-----------------|
+| 0:00.00 | 00_00_00.png | คุณเคยสังเกตไหม... ว่าห้างบิ๊กซีที่เคยแน่นขนัด | hero | Nong K standing in front of a dimly lit, quiet Big C store, melancholic atmosphere, Kurzgesagt style, dramatic |
+| 0:03.00 | 00_00_03.png | เมื่อก่อนคุณต้องขับรถไปห้างสัปดาห์ละครั้ง | comparison | Split screen: past (family driving to bright Big C) vs present (Nong K walking to 7-Eleven), Kurzgesagt style |
+| 0:06.00 | 00_00_06.png | แต่ตอนนี้คุณแค่เดินห้านาทีไปเซเว่น | character | Nong K casually walking to glowing 7-Eleven, relaxed expression, warm light, Kurzgesagt style |
+| 0:09.00 | 00_00_09.png | อะไรทำให้ยักษ์ใหญ่ค้าปลีกอย่างบิ๊กซีต้องเสียพื้นที่ | hero | Giant Big C icon shrinking while 7-Eleven icon grows, dramatic size change, Kurzgesagt style |
+| 0:12.00 | 00_00_12.png | คำตอบอยู่ที่โมเดลธุรกิจที่บิ๊กซีไม่เคยเข้าใจ | framework | Blueprint/diagram of business model with question marks, puzzle pieces, Kurzgesagt style |
+| 0:15.00 | 00_00_15.png | ย้อนกลับไปปี 1994 บิ๊กซีสาขาแรกเปิดบนถนนแจ้งวัฒนะ | timeline | 1994 marker, first Big C store on Chaengwattana Road, vintage Bangkok, Kurzgesagt style |
+| 0:18.00 | 00_00_18.png | ตอนนั้นกลุ่ม Central มองว่าคนไทยต้องการห้างสรรพสินค้าขนาดใหญ่ | character | Central Group executives pointing at Big C blueprint, optimistic, golden glow, Kurzgesagt style |
+| 0:21.00 | 00_00_21.png | โมเดลชัดเจนมาก... เปิดห้างใหญ่ จอดรถสะดวก คนก็มา | framework | Big store icon + parking icon + people flowing in, simple formula, Kurzgesagt infographic style |
+| 0:24.00 | 00_00_24.png | และมันก็ได้ผลจริงๆ คนไทยแห่กันไปห้าง ทุกสุดสัปดาห์แน่นขนัด | data | Crowded Big C store, happy shoppers, full parking lot, Kurzgesagt style, vibrant |
+| 0:27.00 | 00_00_27.png | ชื่อ "บิ๊กซี" มาจาก "Big Central" คือห้างใหญ่ของกลุ่มเซ็นทรัล | hero | Logo reveal: "Big Central" transforming into "Big C" with Central Group branding, Kurzgesagt style |
+| 0:30.00 | 00_00_30.png | ตอนนั้นทุกคนเชื่อว่าโมเดลห้างสรรพสินค้าจะครองโลกค้าปลีก | comparison | World map with hypermarket icons spreading globally, confident arrows, Kurzgesagt style |
+| 0:33.00 | 00_00_33.png | แต่ใครจะรู้ว่าแค่ 30 ปีต่อมา โมเดลนี้จะกลายเป็นโมเดลที่กำลังจะตาย | crisis | Hypermarket icons cracking/fading, red warning tones, downward arrows, Kurzgesagt style |
+| 0:36.00 | 00_00_36.png | ปี 1999 เกิดวิกฤตเศรษฐกิจในเอเชีย หุ้นบิ๊กซีร่วงหนัก | crisis | 1999 marker, stock chart crashing down, red flames, Asian financial crisis, Kurzgesagt style |
+| 0:39.00 | 00_00_39.png | Groupe Casino จากฝรั่งเศส เข้ามาซื้อหุ้น 530 ล้านหุ้น | hero | French flag + Casino logo arriving at Big C, acquisition handshake, golden glow, Kurzgesagt style |
+| 0:42.00 | 00_00_42.png | Casino มองว่าเอเชียคืออนาคต | framework | Vision bubble: Casino executives looking at Asia map with golden opportunities, Kurzgesagt style |
+| 0:45.00 | 00_00_45.png | ปี 2010 บิ๊กซีทุ่มเงิน 35,400 ล้านบาท ซื้อ Carrefour 42 สาขา | timeline | 2010 marker, money flowing from Big C to Carrefour France, "35,400 ล้าน" in golden text, Kurzgesagt style |
+| 0:48.00 | 00_00_48.png | ตอนนั้นบิ๊กซีมี 111 สาขา เทียบกับ Tesco Lotus ที่มีแค่ 87 | data | Bar chart: Big C 111 vs Tesco Lotus 87, Big C bar taller, golden victory, Kurzgesagt style |
+| 0:51.00 | 00_00_51.png | บิ๊กซีกลายเป็นหมายเลขหนึ่งของห้างสรรพสินค้าในไทยทันที | hero | "#1" crown on Big C icon, trophy, golden celebration, Kurzgesagt style |
+| 0:54.00 | 00_00_54.png | ทุกคนมองว่าบิ๊กซีจะครองตลาดค้าปลีกไทยไปอีกหลายสิบปี | data | Long timeline stretching into future with Big C dominance, golden path, Kurzgesagt style |
+| 0:57.00 | 00_00_57.png | แต่สิ่งที่เกิดขึ้นกลับตรงกันข้าม | crisis | Mirror image showing opposite of expectations, dark tones, Kurzgesagt style, dramatic twist |
+| 1:00.00 | 00_01_00.png | ปี 2016 Groupe Casino เริ่มมีปัญหาหนี้สิน | crisis | 2016 marker, Casino logo with debt chains, red warning, financial distress, Kurzgesagt style |
+| 1:03.00 | 00_01_03.png | พวกเขาตัดสินใจขายหุ้นบิ๊กซี 58.6% | data | Pie chart showing 58.6% being transferred, golden slice, Kurzgesagt infographic style |
+| 1:06.00 | 00_01_06.png | ให้ TCC Group ของเจ้าสัวเจริญ สิริวัฒนภักดี | hero | TCC Group logo emerging, Thai billionaire silhouette, golden handshake, Kurzgesagt style |
+| 1:09.00 | 00_01_09.png | มูลค่าดีล 3.1 พันล้านยูโร หรือประมาณ 120,000 ล้านบาท | data | Giant number "120,000 ล้านบาท" glowing on dark background, money rain, Kurzgesagt style |
+| 1:12.00 | 00_01_12.png | ตอนนั้นดูเหมือนจะเป็นดีลที่ดี... TCC Group ได้ห้างยักษ์ใหญ่มาครอง | comparison | TCC Group holding Big C like a trophy, optimistic expression, golden glow, Kurzgesagt style |
+| 1:15.00 | 00_01_15.png | แต่ใครจะรู้ว่าแค่ 8 ปีต่อมา บิ๊กซีจะกลายเป็นยักษ์ที่กำลังจะล้ม | crisis | Giant Big C icon wobbling/falling, dark storm clouds, dramatic, Kurzgesagt style |
+| 1:18.00 | 00_01_18.png | ปี 2020 เกิดศึกครั้งใหญ่... Tesco ประกาศขาย Tesco Lotus ในไทย | timeline | 2020 marker, Tesco Lotus sign with "For Sale" sign, dramatic reveal, Kurzgesagt style |
+| 1:21.00 | 00_01_21.png | บิ๊กซี/TCC Group ตั้งใจจะซื้อ | character | TCC Group executives eyeing Tesco Lotus, hungry expression, golden vision, Kurzgesagt style |
+| 1:24.00 | 00_01_24.png | แต่ CP Group เข้ามาแย่ง... ทุ่มเงิน 10.6 พันล้านดอลลาร์ | crisis | CP Group swooping in with giant money bag "$10.6B", dramatic interruption, Kurzgesagt style |
+| 1:27.00 | 00_01_27.png | บิ๊กซีแพ้... CP Group ชนะ | comparison | Split: TCC Group disappointed vs CP Group celebrating victory, Kurzgesagt style |
+| 1:30.00 | 00_01_30.png | เพราะ CP Group เข้าใจว่า Lotus's ไม่ใช่แค่ห้าง | framework | Lotus's connected to 7-Eleven via supply chain arrows, ecosystem diagram, Kurzgesagt style |
+| 1:33.00 | 00_01_33.png | CP Group ไม่ได้ซื้อห้าง... พวกเขาซื้อโครงข่าย distribution ทั้งหมด | framework | Distribution network map with Lotus's as hub, golden connections, Kurzgesagt style |
+| 1:36.00 | 00_01_36.png | ตอนนี้ Lotus's มี 2,000+ สาขา กลายเป็นส่วนหนึ่งของอาณาจักร CP Group | data | "2,000+ สาขา" text with Lotus's icons spreading across Thailand map, Kurzgesagt style |
+| 1:39.00 | 00_01_39.png | ในขณะที่บิ๊กซี... ยังมีแค่ 168 สาขา | comparison | Split comparison: CP Group (Lotus's + 7-Eleven + Makro = many) vs Big C (only 168), dramatic gap, Kurzgesagt style |
+| 1:42.00 | 00_01_42.png | ลองมาดูตัวเลขเปรียบเทียบกัน... | transition | Golden particles assembling, data cards appearing, Kurzgesagt style, transition |
+| 1:45.00 | 00_01_45.png | ปี 2024 บิ๊กซีในไทยมีทั้งหมด 168 สาขา | data | "168 สาขา" in golden text with small Big C icons, limited spread, Kurzgesagt infographic style |
+| 1:48.00 | 00_01_48.png | แบ่งเป็น Big C Supercenter 138 สาขา Big C Extra 15 สาขา | data | Pie/breakdown chart: 138 supercenter, 15 extra, 15 other, Kurzgesagt style |
+| 1:51.00 | 00_01_51.png | ในขณะที่เซเว่นมี 15,430 สาขา | data | "15,430 สาขา" massive number with store dots flooding the map, golden, Kurzgesagt style |
+| 1:54.00 | 00_01_54.png | จำนวนร้านต่างกัน 92 เท่า | data | "92x" in giant golden text, scale comparison bar chart, Kurzgesagt style |
+| 1:57.00 | 00_01_57.png | รายได้ต่างกัน 3.4 เท่า | data | Revenue bars: Big C 140B vs CP All 480B, 3.4x multiplier, golden accent, Kurzgesagt style |
+| 2:00.00 | 00_02_00.png | บิ๊กซีมีรายได้ 140,000 ล้านบาท แต่ CP All มี 480,000 ล้านบาท | data | Side-by-side revenue cards with building icons scaled proportionally, Kurzgesagt style |
+| 2:03.00 | 00_02_03.png | พนักงานต่างกัน... บิ๊กซีมี 27,000 คน แต่ CP All มีมากกว่า 60,000 คน | data | People icons: small group (27K) vs large group (60K+), scale visualization, Kurzgesagt style |
+| 2:06.00 | 00_02_06.png | ทำไมยักษ์ใหญ่ถึงกลายเป็นยักษ์เล็ก? | hero | Nong K with magnifying glass examining shrinking Big C icon, mystery, Kurzgesagt style |
+| 2:09.00 | 00_02_09.png | คำตอบอยู่ที่สิ่งที่บิ๊กซีไม่เคยเปลี่ยน | framework | Lock icon on Big C business model, refusing to change, padlock metaphor, Kurzgesagt style |
+| 2:12.00 | 00_02_12.png | โมเดลห้างสรรพสินค้าออกแบบมาให้คุณมาทีละสัปดาห์ ซื้อของเข้าบ้านทีละมาก | framework | Weekly calendar with big shopping cart, weekly schedule diagram, Kurzgesagt style |
+| 2:15.00 | 00_02_15.png | คุณต้องวางแผนว่าวันเสาร์จะไปห้าง | character | Nong K with checklist, planning schedule, Saturday marked on calendar, Kurzgesagt style |
+| 2:18.00 | 00_02_18.png | จดรายการซื้อของ ขับรถไปจอดรถ แล้วเดินซื้อสองสามชั่วโมง | character | Step-by-step process: list → drive → park → shop, long chain, Kurzgesagt style |
+| 2:21.00 | 00_02_21.png | แต่คนไทยไม่ได้ซื้อแบบนั้นอีกแล้ว | crisis | Old shopping habits crossed out, new behavior emerging, transformation, Kurzgesagt style |
+| 2:24.00 | 00_02_24.png | คนไทยซื้อของทุกวัน... ไม่ใช่สัปดาห์ละครั้ง | data | Calendar with daily marks vs weekly marks, daily winning, Kurzgesagt infographic style |
+| 2:27.00 | 00_02_27.png | คุณเดินเข้าเซเว่นวันละสองสามรอบ | character | Nong K entering 7-Eleven multiple times in one day, loop animation feel, Kurzgesagt style |
+| 2:30.00 | 00_02_30.png | ซื้อข้าวมื้อกลางวัน ซื้อน้ำมื้อบ่าย ซื้อขนมมื้อเย็น | infographic | Three time-of-day icons: lunch rice, afternoon water, evening snack, Kurzgesagt style |
+| 2:33.00 | 00_02_33.png | ไม่มีใครอยากขับรถฝ่าการจราจรกรุงเทพ ไปห้างเพื่อซื้อแค่ข้าวหนึ่งจาน | character | Bangkok traffic jam with frustrated driver vs person walking to 7-Eleven, contrast, Kurzgesagt style |
+| 2:36.00 | 00_02_36.png | นี่คือจุดเปลี่ยน... คนไทยเปลี่ยนพฤติกรรม แต่บิ๊กซีไม่ได้เปลี่ยนตาม | comparison | Split: Thai people evolving (modern) vs Big C staying same (stuck), Kurzgesagt style |
+| 2:39.00 | 00_02_39.png | ในขณะที่เซเว่นมี 15,430 สาขา กระจายตัวอยู่ทั่วประเทศ | map | Thailand map with golden dots covering every province, 7-Eleven density, Kurzgesagt style |
+| 2:42.00 | 00_02_42.png | ในกรุงเทพมี 4,245 สาขา... เกือบครึ่งของทั้งหมด | map | Bangkok zoom-in with dense cluster of 7-Eleven dots, "4,245" in golden, Kurzgesagt style |
+| 2:45.00 | 00_02_45.png | แปลว่าถ้าคุณอยู่ในกรุงเทพ คุณน่าจะมีเซเว่นอยู่ห่างจากคุณไม่เกิน 200-300 เมตร | map | Person icon with 300m radius circle, 7-Eleven within range, proximity visualization, Kurzgesagt style |
+| 2:48.00 | 00_02_48.png | แต่บิ๊กซีมีกี่สาขาในกรุงเทพ? แค่ 30-40 สาขา | comparison | Bangkok map: dense 7-Eleven dots vs sparse Big C dots (30-40), dramatic contrast, Kurzgesagt style |
+| 2:51.00 | 00_02_51.png | คุณต้องขับรถ 15-30 นาทีเพื่อไปบิ๊กซี แต่คุณเดิน 5 นาทีถึงเซเว่น | comparison | Split: 15-30 min drive vs 5 min walk, time comparison, Kurzgesagt style |
+| 2:54.00 | 00_02_54.png | ลองคิดดู... คุณจะเลือกแบบไหน? | character | Nong K thinking, thought bubbles with both options, decision moment, Kurzgesagt style |
+| 2:57.00 | 00_02_57.png | นี่ไม่ใช่แค่เรื่องจำนวนสาขา มันคือเรื่องโมเดลธุรกิจทั้งระบบ | framework | Business model diagram with multiple interconnected gears, system thinking, Kurzgesagt style |
+| 3:00.00 | 00_03_00.png | CP All ใช้โมเดลแฟรนไชส์ | framework | Franchise model diagram with CP All at center, partners radiating out, Kurzgesagt infographic style |
+| 3:03.00 | 00_03_03.png | ร้าน 49% เป็นของแฟรนไชส์ ร้าน 7% เป็น sub-area license | data | Pie chart: 51% corporate (gold), 49% franchise (teal), 7% sub-area (coral), Kurzgesagt style |
+| 3:06.00 | 00_03_06.png | แปลว่า CP All ไม่ต้องลงทุนเองทั้งหมด คนอื่นลงทุนให้ | framework | Money flowing from partners to CP All, investment arrows, capital-light model, Kurzgesagt style |
+| 3:09.00 | 00_03_09.png | CP Group เป็นเจ้าของ CP Foods ซึ่งผลิตอาหารทุกอย่างที่อยู่ในเซเว่น | framework | CP Group → CP Foods → 7-Eleven supply chain arrows, vertical integration, Kurzgesagt style |
+| 3:12.00 | 00_03_12.png | ไก่ที่คุณกินข้าวมันไก่ในเซเว่น... CP Group เป็นคนเลี้ยง | character | Chicken farm → processing → 7-Eleven rice box, end-to-end, Kurzgesagt style |
+| 3:15.00 | 00_03_15.png | ข้าวที่คุณกินข้าวผัดในเซเว่น... CP Group เป็นคนส่ง | framework | Rice field → factory → delivery → 7-Eleven shelf, supply chain, Kurzgesagt style |
+| 3:18.00 | 00_03_18.png | ระบบจัดส่งที่ขนของไปเซเว่นทุกวัน... CP Group เป็นคนจัดการ | framework | Delivery trucks flowing from CP Foods to all 7-Eleven stores, logistics map, Kurzgesagt style |
+| 3:21.00 | 00_03_21.png | นี่เรียกว่า vertical integration | hero | "Vertical Integration" diagram: farm → feed → chicken → factory → delivery → store, golden flow, Kurzgesagt style |
+| 3:24.00 | 00_03_24.png | บิ๊กซีไม่มีสิ่งนี้... บิ๊กซีเป็นแค่คนกลาง | comparison | Big C as middleman (broken chain) vs CP Group (complete chain), contrast, Kurzgesagt style |
+| 3:27.00 | 00_03_27.png | แต่เซเว่นเป็นทั้งคนผลิต คนจัดส่ง และคนขาย | framework | Three roles: producer + distributor + retailer all in one CP Group, golden integration, Kurzgesagt style |
+| 3:30.00 | 00_03_30.png | คุณเห็นความแตกต่างไหม? | character | Nong K with magnifying glass comparing two business models, analytical, Kurzgesagt style |
+| 3:33.00 | 00_03_33.png | ทั่วเอเชีย ห้างสรรพสินค้ากำลังตาย | crisis | Asia map with hypermarket icons fading/closing, red decline arrows, Kurzgesagt style |
+| 3:36.00 | 00_03_36.png | ในจีน ห้างสรรพสินค้าปิดตัวลง thousands แห่ง | data | China map with thousands of store closures, red X marks, decline visualization, Kurzgesagt style |
+| 3:39.00 | 00_03_39.png | ในญี่ปุ่น ร้านสะดวกซื้อครองตลาดค้าปลีกไปแล้ว | data | Japan map with 20,000 convenience store dots dominating, golden takeover, Kurzgesagt style |
+| 3:42.00 | 00_03_42.png | แม้แต่ในอเมริกา Walmart ก็ต้องปิดห้างหลายร้อยสาขา | data | USA map with Walmart closures, Amazon arrow swooping in, Kurzgesagt style |
+| 3:45.00 | 00_03_45.png | โมเดลห้างสรรพสินค้ากำลังจะตายทั่วโลก | crisis | World map with hypermarket icons dying across continents, global trend, Kurzgesagt style |
+| 3:48.00 | 00_03_48.png | บิ๊กซีพยายามหนีตายไปต่างประเทศ | character | Big C icon running to Laos/Cambodia/HK, escape metaphor, Kurzgesagt style |
+| 3:51.00 | 00_03_51.png | แต่ในลาว มีแค่ 66 Mini Big C... ในกัมพูชามีแค่ 19 สาขา | data | Laos (66) + Cambodia (19) small numbers, limited expansion, Kurzgesagt infographic style |
+| 3:54.00 | 00_03_54.png | ส่วนเวียดนาม บิ๊กซีขายกิจการทิ้งหมด | crisis | Big C selling Vietnam stores, "SOLD" stamp, red loss indicator, Kurzgesagt style |
+| 3:57.00 | 00_03_57.png | แปลว่าบิ๊กซีกำลังสูญเสียตลาดทุกที่... ในไทยก็แพ้ ต่างประเทศก็ขาย | crisis | Big C icon shrinking everywhere, retreat arrows, global failure, Kurzgesagt style |
+| 4:00.00 | 00_04_00.png | ในขณะที่ CP Group กำลังขยายอาณาจักร... ไม่ใช่แค่เซเว่น | hero | CP Group empire expanding, multiple brand logos, golden growth, Kurzgesagt style |
+| 4:03.00 | 00_04_03.png | CP Group เป็นเจ้าของ True Corporation ซึ่งมีลูกค้ามือถือ 48.8 ล้านคน | data | True Corporation logo with "48.8 ล้าน" customer count, telecom network, Kurzgesagt style |
+| 4:06.00 | 00_04_06.png | TrueMoney มีผู้ใช้งานหลายสิบล้าน... จ่ายเงินได้ทุกที่ | data | TrueMoney logo with payment icons everywhere, digital finance, Kurzgesagt style |
+| 4:09.00 | 00_04_09.png | CP Axtra เป็นเจ้าของ Makro และ Lotus's | data | Makro + Lotus's logos, 2,000+ retail points, wholesale + retail, Kurzgesagt style |
+| 4:12.00 | 00_04_12.png | CP Foods เป็นบริษัทอาหารที่ใหญ่ที่สุดในเอเชีย | hero | CP Foods logo with "largest in Asia" crown, golden dominance, Kurzgesagt style |
+| 4:15.00 | 00_04_15.png | Ascend Group ดูแล e-commerce และ logistics ทั้งหมด | framework | Ascend Group managing online + delivery, digital infrastructure, Kurzgesagt style |
+| 4:18.00 | 00_04_18.png | CP Group ควบคุมตั้งแต่ฟาร์มเลี้ยงไก่ ไปจนถึงร้านเซเว่นที่ขายข้าวมันไก่ | framework | Complete vertical chain: farm → feed → chicken → factory → truck → 7-Eleven → customer, Kurzgesagt style |
+| 4:21.00 | 00_04_21.png | บิ๊กซีเป็นแค่ห้าง... แต่ CP Group เป็นทั้งระบบนิเวศธุรกิจ | comparison | Big C (single store icon) vs CP Group (ecosystem with many brands), massive contrast, Kurzgesagt style |
+| 4:24.00 | 00_04_24.png | คุณจะแข่งกับระบบนิเวศทั้งหมดได้ยังไง... ในเมื่อคุณเป็นแค่ห้างเดียว? | character | Small Big C facing giant CP Group ecosystem, David vs Goliath, Kurzgesagt style |
+| 4:27.00 | 00_04_27.png | บิ๊กซีไม่ได้อยู่เฉยๆ พวกเขาพยายามแก้เกมทุกวิถีทาง | hero | Big C fighting back, multiple strategy arrows, determined effort, Kurzgesagt style |
+| 4:30.00 | 00_04_30.png | ปี 2005 บิ๊กซีเปิด Big C Compact... ห้างขนาดเล็กลง | timeline | 2005 marker, compact store icon, smaller footprint, investment reduction, Kurzgesagt style |
+| 4:33.00 | 00_04_33.png | ปี 2010 เปิด Big C Junior... ขนาดกลาง | timeline | 2010 marker, mid-size store icon, between formats, Kurzgesagt style |
+| 4:36.00 | 00_04_36.png | ปี 2019 เปิด Big C Foodplace... ซูเปอร์มาร์เก็ตพรีเมียม | timeline | 2019 marker, premium store with imported goods, organic food, Kurzgesagt style |
+| 4:39.00 | 00_04_39.png | ปี 2022 เปิด Big C Marché... ร้านอาหาร+ไวน์เซลลาร์ | timeline | 2022 marker, luxury store with wine cellar, One Bangkok, Kurzgesagt style |
+| 4:42.00 | 00_04_42.png | และยังมี Big C Depot... ขายส่งให้โรงแรม ร้านอาหาร คาเฟ่ | timeline | Wholesale depot icon, HORECA supply, 11 branches, Kurzgesagt style |
+| 4:45.00 | 00_04_45.png | ลองคิดดู... บิ๊กซีเปิด formats ใหม่ 5-6 แบบภายใน 20 ปี | data | Timeline with 5-6 format attempts, all leading to failure arrows, Kurzgesagt style |
+| 4:48.00 | 00_04_48.png | แต่ทุกแบบก็ล้มเหลวหมด... เพราะทุกแบบยังคงเป็นโมเดลห้างสรรพสินค้า | crisis | All format icons crossed out with red X, same old model, failure visualization, Kurzgesagt style |
+| 4:51.00 | 00_04_51.png | แค่เปลี่ยนขนาด ไม่ได้เปลี่ยนโมเดล | framework | Size change arrows (big → small) but same model icon, superficial change, Kurzgesagt style |
+| 4:54.00 | 00_04_54.png | ตอนนี้พวกเขาก็เลยหันมาเปิด Mini Big C... ร้านเล็กๆ 80-250 ตรม. | timeline | Mini Big C store icon, small convenience format, Kurzgesagt style |
+| 4:57.00 | 00_04_57.png | ตอนแรกดูเหมือนจะเวิร์ค... ขยายไป 1,430 สาขา | data | "1,430 สาขา" with expanding dots, initial growth, Kurzgesagt style |
+| 5:00.00 | 00_05_00.png | แต่ 1,430 เทียบกับ 15,430 ของเซเว่น... ต่างกัน 11 เ�่า | comparison | Bar chart: Mini Big C 1,430 vs 7-Eleven 15,430, 11x gap, Kurzgesagt style |
+| 5:03.00 | 00_05_03.png | และปัญหาคือ Mini Big C ไม่มีอาหารพร้อมกินแบบเซเว่น | crisis | Empty food counter at Mini Big C vs full hot food at 7-Eleven, contrast, Kurzgesagt style |
+| 5:06.00 | 00_05_06.png | ไม่มีข้าวมันไก่... ไม่มีบะหมี่... ไม่มีกาแฟสด | infographic | Missing items: rice box ✗, noodles ✗, coffee ✗, red crosses, Kurzgesagt style |
+| 5:09.00 | 00_05_09.png | คนไทยเข้าเซเว่นไม่ใช่แค่ซื้อของ แต่กินข้าวด้วย | character | Thai person eating at 7-Eleven counter, hot meal, Kurzgesagt style, relatable |
+| 5:12.00 | 00_05_12.png | คุณเคยสังเกตไหม... ว่าเซเว่นมีโซนอาหารร้อนๆ อยู่หน้าร้านเสมอ? | character | Hot food zone at front of 7-Eleven, steam rising, warm glow, Kurzgesagt style |
+| 5:15.00 | 00_05_15.png | นั่นคือจุดขายที่ Mini Big C ไม่มี | comparison | 7-Eleven hot food zone vs Mini Big C empty front, missing opportunity, Kurzgesagt style |
+| 5:18.00 | 00_05_18.png | เพราะโมเดลห้างสรรพสินค้าไม่ได้ออกแบบมาให้ขายอาหารจานเดียว | framework | Store model diagram: bulk items only, no single-meal design, Kurzgesagt style |
+| 5:21.00 | 00_05_21.png | โมเดลห้างออกแบบมาให้คุณซื้อของเข้าบ้านทีละหลายพัน | framework | Giant shopping cart with many items, thousands of baht, Kurzgesagt style |
+| 5:24.00 | 00_05_24.png | ไม่ใช่ซื้อข้าว 40 บาท | comparison | Small rice box "40 บาท" vs giant hypermarket cart, mismatch, Kurzgesagt style |
+| 5:27.00 | 00_05_27.png | นี่คือปัญหาเชิงโครงสร้างที่แก้ไม่ได้ | crisis | Structural problem: broken foundation, unfixable architecture, Kurzgesagt style |
+| 5:30.00 | 00_05_30.png | ไม่ว่าบิ๊กซีจะขยายกี่สาขา หรือลดราคากี่เปอร์เซ็นต์ | data | Expansion arrows and discount percentages failing, futile effort, Kurzgesagt style |
+| 5:33.00 | 00_05_33.png | มันก็แก้ไม่ได้เพราะโมเดลธุรกิจออกแบบมาไม่ถูกต้อง | crisis | Wrong blueprint, mismatched design, fundamental flaw, Kurzgesagt style |
+| 5:36.00 | 00_05_36.png | ในขณะที่เซเว่นออกแบบมาได้สมบูรณ์แบบ... อยู่ใกล้ เปิด 24 ชม. มีอาหารพร้อมกิน | hero | Perfect 7-Eleven design: nearby + 24hr + hot food, golden checkmarks, Kurzgesagt style |
+| 5:39.00 | 00_05_39.png | TrueMoney, Counter Service, จ่ายบิล, รับเงินโอน | infographic | Service icons: payment, bills, transfer, all at 7-Eleven, complete ecosystem, Kurzgesagt style |
+| 5:42.00 | 00_05_42.png | เซเว่นไม่ใช่แค่ร้านสะดวกซื้อ... มันคือจุดบริการครบวงจร | hero | 7-Eleven as hub with spokes: food, payment, bills, transfer, services, Kurzgesagt style |
+| 5:45.00 | 00_05_45.png | คุณจินตนาการได้ไหม... ว่าถ้าเซเว่นหายไป ชีวิตคนไทยจะยากลำบากแค่ไหน? | character | Thailand map with 7-Eleven dots disappearing, chaos, life disruption, Kurzgesagt style |
+| 5:48.00 | 00_05_48.png | ทำไมบิ๊กซีถึงไม่สามารถลดราคาสู้กับเซเว่นได้? | hero | Price comparison battle: Big C trying but failing, cost burden, Kurzgesagt style |
+| 5:51.00 | 00_05_51.png | เพราะโมเดลห้างต้องแบกรับค่าใช้จ่ายมหาศาล | data | Cost breakdown: rent (10,000 sqm), electricity, 100+ staff, heavy burden, Kurzgesagt style |
+| 5:54.00 | 00_05_54.png | แต่เซเว่นขายของน้อยกว่า... แค่ข้าวกล่อง 40 บาท น้ำ 15 บาท | data | Small items with low prices: 40 baht, 15 baht, 20 baht, high volume, Kurzgesagt style |
+| 5:57.00 | 00_05_57.png | แต่คนเข้าเซเว่นวันละ 11.7 ล้านคน | data | "11.7 ล้านคน/วัน" massive crowd flowing into 7-Eleven icons, Kurzgesagt style |
+| 6:00.00 | 00_06_00.png | เซเว่นไม่ต้องขายของแพง... เพราะขายมากเข้า กำไรก็มารวมกันเอง | framework | Volume × margin = profit equation, many small sales adding up, Kurzgesagt style |
+| 6:03.00 | 00_06_03.png | นี่คือ economies of scale ที่บิ๊กซีไม่มีทางสู้ได้ | data | Scale curve: more stores → lower cost per unit, Big C stuck on wrong side, Kurzgesagt style |
+| 6:06.00 | 00_06_06.png | ยิ่งเซเว่นมีสาขาเยอะเท่าไหร่ ต้นทุนต่อหน่วยก็ยิ่งต่ำลง | data | Cost curve declining as stores multiply, economies of scale visualization, Kurzgesagt style |
+| 6:09.00 | 00_06_09.png | และในยุคที่ Shopee Lazada กำลังเติบโต... คนยิ่งซื้อของออนไลน์มากขึ้น | data | E-commerce icons growing, online shopping trend, delivery trucks, Kurzgesagt style |
+| 6:12.00 | 00_06_12.png | สิ่งที่คนยังต้องไปซื้อด้วยตัวเองคือ... อาหารพร้อมกิน น้ำดื่ม ของใช้จำเป็น | infographic | Essential items: food, water, necessities — still need physical store, Kurzgesagt style |
+| 6:15.00 | 00_06_15.png | ซึ่งทั้งหมดนั้น เซเว่นมีหมด... แต่บิ๊กซีไม่ได้เชี่ยวชาญเรื่องนี้ | comparison | 7-Eleven has all essentials ✓ vs Big C lacks specialty ✗, Kurzgesagt style |
+| 6:18.00 | 00_06_18.png | บิ๊กซีเชี่ยวชาญเรื่องขายของเข้าบ้านทีละมาก... แต่คนไม่ต้องการแบบนั้นแล้ว | crisis | Big C specialty (bulk) crossed out, people want convenience, Kurzgesagt style |
+| 6:21.00 | 00_06_21.png | นี่คือเหตุผลที่บิ๊กซีแพ้... ไม่ใช่เพราะสินค้าไม่ดี ไม่ใช่เพราะราคาแพง | hero | Nong K analyzing the conclusion, analytical pose, Kurzgesagt style |
+| 6:24.00 | 00_06_24.png | แต่เพราะโมเดลธุรกิจผิด | crisis | Broken business model icon, fundamental error highlighted in red, Kurzgesagt style |
+| 6:27.00 | 00_06_27.png | บิ๊กซีออกแบบมาให้คุณมาสัปดาห์ละครั้ง | framework | Weekly calendar with single visit mark, Big C model, Kurzgesagt style |
+| 6:30.00 | 00_06_30.png | แต่เซเว่นออกแบบมาให้คุณมาทุกวัน... วันละหลายรอบ | framework | Daily calendar with multiple visit marks, 7-Eleven model, Kurzgesagt style |
+| 6:33.00 | 00_06_33.png | และเมื่อคุณเปลี่ยนพฤติกรรมมาซื้อของทุกวัน... เซเว่นก็ชนะ | data | Behavior shift arrow: weekly → daily, 7-Eleven winning, golden victory, Kurzgesagt style |
+| 6:36.00 | 00_06_36.png | เพราะเซเว่นอยู่ใกล้คุณมากกว่า มีอาหารให้คุณกินมากกว่า | comparison | Proximity + food advantage, 7-Eleven scoring higher on both, Kurzgesagt style |
+| 6:39.00 | 00_06_39.png | และที่สำคัญที่สุด... เซเว่นเข้าใจว่าคุณต้องการอะไรก่อนที่คุณจะรู้ตัว | hero | 7-Eleven predicting customer needs, crystal ball metaphor, golden insight, Kurzgesagt style |
+| 6:42.00 | 00_06_42.png | กลับมาที่คำถามเดิม... ทำไมบิ๊กซีถึงแพ้เซเว่น? | hero | Echo opening: Nong K at quiet Big C, full circle, Kurzgesagt style |
+| 6:45.00 | 00_06_45.png | คำตอบไม่ได้อยู่ที่ราคา ไม่ได้อยู่ที่สินค้า | comparison | Price tag ✗ + product quality ✗ crossed out, wrong focus, Kurzgesagt style |
+| 6:48.00 | 00_06_48.png | คำตอบอยู่ที่โมเดลธุรกิจ... และบิ๊กซีไม่เคยเปลี่ยนโมเดลได้ทัน | crisis | Business model icon stuck in past, unable to change, golden final statement, Kurzgesagt style |
+| 6:51.00 | 00_06_51.png | เพราะคุณไม่ได้แข่งกับร้านสะดวกซื้อ... คุณแข่งกับระบบทั้งหมด | hero | Giant ecosystem vs single store, final dramatic comparison, Kurzgesagt style |
+| 6:54.00 | 00_06_54.png | ที่ออกแบบมาเพื่อให้คุณกลับมาทุกวัน | hero | Loop arrow: daily habit cycle, 7-Eleven winning, closing statement, Kurzgesagt style |
+
+==================================================
+END OF SHOT LIST
+==================================================

@@ -1,10 +1,11 @@
 === METADATA: ทำไมเซเว่นอีเลฟเว่น ครองประเทศไทยได้ ===
+Channel: น้องเควิเคราะห์ธุรกิจ | @NongKBusiness
 
 ═══════════════════════════════════════════════
 TITLE (Thai)
 ═══════════════════════════════════════════════
 
-ทำไมเซเว่นฯ ครองไทยได้? รายได้ทะลุ 1 ล้านล้านบาท | วิเคราะห์ธุรกิจ
+ทำไมเซเว่นฯ ครองไทยได้? รายได้ทะลุ 1 ล้านล้านบาท | น้องเควิเคราะห์ธุรกิจ
 
 ═══════════════════════════════════════════════
 TITLE (English backup)
@@ -43,7 +44,7 @@ TIMESTAMPS
 TAGS
 ═══════════════════════════════════════════════
 
-ธุรกิจ, วิเคราะห์ธุรกิจ, เคสสตัดดี้, เซเว่นอีเลฟเว่น, 7-Eleven, CP All, ซีพี, เครือเจริญโภคภัณฑ์, ธุรกิจไทย, ร้านสะดวกซื้อ, ความสำเร็จ, กลยุทธ์ธุรกิจ, แฟรนไชส์, TrueMoney, ประเทศไทย, Case Study, Business Analysis, Thai Business
+วิเคราะห์ธุรกิจ, ธุรกิจไทย, เคสสตัดดี้, เซเว่นอีเลฟเว่น, 7-Eleven, CP All, ซีพี, เครือเจริญโภคภัณฑ์, ร้านสะดวกซื้อ, ความสำเร็จ, กลยุทธ์ธุรกิจ, แฟรนไชส์, TrueMoney, Thailand, Case Study, Business Analysis, Thai Business, ธุรกิจ, การเงิน, ลงทุน
 
 ═══════════════════════════════════════════════
 THUMBNAIL CONCEPTS
@@ -54,19 +55,28 @@ Concept 1: "ตัวเลขล้านล้าน"
 - 7-Eleven store in background
 - Dark navy background, golden glow
 - Kurzgesagt flat vector style
-- Google Flow prompt: "Small cute flat vector character with golden orange rounded body and tiny glasses looking up at giant glowing golden text one trillion Thai baht, 7-Eleven convenience store in background, dark navy gradient background, Kurzgesagt flat vector illustration, dramatic reveal lighting, 16:9"
+- Text space: TOP RIGHT
+- Google Flow prompt: "A small cute flat vector character with golden orange rounded body and tiny glasses positioned in the BOTTOM LEFT looking upward, a 7-Eleven convenience store in the background on the RIGHT side, TOP RIGHT area left as clean dark navy negative space for large text overlay, Kurzgesagt flat vector illustration style, dramatic upward lighting with golden glow, dark navy gradient background, warm golden light particles, high contrast, 16:9 aspect ratio"
 
 Concept 2: "แผนที่ไทย"
 - Thailand map covered in golden dots
 - 7-Eleven density visualization
 - Dark navy background
-- Google Flow prompt: "Stylized Thailand map covered in hundreds of small glowing golden dots showing store density, Bangkok area with intense golden glow cluster, dark navy gradient background, Kurzgesagt flat vector illustration, data visualization, 16:9"
+- Text space: RIGHT 40%
+- Google Flow prompt: "A stylized flat vector map of Thailand positioned on the LEFT 60% of the frame, covered in hundreds of small glowing golden dots representing store density, densest cluster around Bangkok area glowing intensely, RIGHT 40% left as clean dark navy negative space for text overlay, Kurzgesagt illustration style, clean minimal data visualization, warm golden glow from dot clusters, dark navy gradient background, high contrast, 16:9 aspect ratio"
 
 Concept 3: "เมล็ดสู่อาณาจักร"
 - Tiny seed growing into giant empire
 - Growth transformation metaphor
 - Golden path from small to large
-- Google Flow prompt: "Tiny seed icon on left growing and transforming into massive golden empire building on right, golden connecting path showing growth journey, dark navy gradient background, Kurzgesagt flat vector illustration, epic transformation, 16:9"
+- Text space: TOP LEFT
+- Google Flow prompt: "A tiny golden seed icon in the BOTTOM LEFT corner, a glowing golden ascending path leading diagonally upward to a massive golden empire building in the TOP RIGHT corner, TOP LEFT area left as clean dark navy negative space for text overlay, Kurzgesagt flat vector illustration style, epic growth transformation, warm golden light particles along path, dark navy gradient background, high contrast, 16:9 aspect ratio"
+
+═══════════════════════════════════════════════
+HASHTAGS (put in first comment or description)
+═══════════════════════════════════════════════
+
+#น้องเควิเคราะห์ธุรกิจ #ธุรกิจไทย #เคสสตัดดี้ #เซเว่น #7Eleven #CPAll
 
 ═══════════════════════════════════════════════
 VIDEO SPECS
